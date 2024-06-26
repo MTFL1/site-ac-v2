@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Container principal pour centrer le contenu */
+.container {
+  max-width: 1400px; /* Largeur maximale du contenu */
+  margin: 0 auto; /* Centre le contenu horizontalement */
+  padding: 0 20px; /* Ajoute un espacement sur les côtés */
+  box-sizing: border-box; /* Inclus la taille de la bordure et du padding dans la largeur totale */
+}

@@ -1,0 +1,31 @@
+.brancheLogoAdress{
+    position: absolute;
+    top: 583px;
+    bottom: 0;
+    left: 0;
+    width: 130px; /* Ajustez cette valeur selon vos besoins */
+    height: auto;
+}
+
+.no-padding-margin {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .object-contain {
+    object-fit: contain;
+  }
+  
+  .size-full {
+    width: 100%;
+    height: 100%;
+  }
+  
+
+@media (max-width: 768px) {
+    .brancheLogoAdress {
+        margin-top: 315px;
+    }
+}
