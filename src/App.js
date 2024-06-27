@@ -6,9 +6,11 @@ import Evenements from './pages/Evenements/Evenements';
 import AntreConnaissance from './pages/AntreConnaissance/AntreConnaissance';
 import EntreConnaissance from './pages/EntreConnaissance/EntreConnaissance';
 import Contact from './pages/Contact/Contact';
+import Error404 from './pages/Error404/Error404';
 
 
 import './App.css';
+import PageEvenement from './pages/PageEvenement/PageEvenement';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
         <Route path="evenements" element={<Evenements />} />
         <Route path="/antreConnaissance" element={<AntreConnaissance />} />
         <Route path="/entreConnaissance" element={<EntreConnaissance />} />
+        <Route path="/pageEvenement" element={<PageEvenement />} />
         <Route path="/contact" element={<Contact />} /> 
-        </Routes>
+        <Route path="*" element={<Error404 />} />
+    </Routes>
     </div>
     </>
   );

@@ -21,20 +21,6 @@ function EventCard({ date, month, title, iconSrc }) {
 function PageEvenement() {
   return (
     <div className="flex flex-col pt-2.5 bg-white">
-      <header className="flex z-10 gap-5 justify-between items-start self-center w-full text-base font-medium max-w-[1398px] max-md:flex-wrap max-md:max-w-full">
-        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/37de12d770d02ba988a0896c982b407cb3da54d1d6cc138371e1e7e7351040d3?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="shrink-0 self-stretch aspect-[0.89] w-[94px]" />
-        <nav className="flex gap-5 justify-center px-5 py-4 text-zinc-600 max-md:flex-wrap">
-          <a href="#" className="text-zinc-600">Accueil</a>
-          <a href="#">À propos</a>
-          <a href="#" className="text-slate-900">Évènements</a>
-          <a href="#">Antre-connaissance</a>
-          <a href="#">Entre-connaissance</a>
-          <a href="#">Contact</a>
-        </nav>
-        <button className="justify-center px-8 py-3 mt-1.5 text-right text-white whitespace-nowrap bg-gray-800 rounded max-md:px-5">
-          Don
-        </button>
-      </header>
       <main className="py-px w-full bg-slate-900 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[18%] max-md:ml-0 max-md:w-full">

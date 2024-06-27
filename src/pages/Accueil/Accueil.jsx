@@ -1,4 +1,7 @@
 import React from "react";
+import Hero from './ui/Hero';
+import BandeauDon from "../../components/BandeauDon"
+
 
 
 const EventCard = ({ day, month, title, isLarge }) => (
@@ -22,49 +25,7 @@ function Accueil() {
     <div className="flex flex-col pt-4 bg-white">
  
       <main>
-
-        <section className="w-full bg-gray-900 max-md:max-w-full">
-          <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-            <div className="flex flex-col w-[79%] max-md:ml-0 max-md:w-full">
-              <div className="flex flex-col max-md:mt-8 max-md:max-w-full">
-                <div className="max-md:max-w-full">
-                  <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                    <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-                      <div className="flex overflow-hidden relative flex-col grow items-start pb-20 aspect-[0.74] fill-cyan-600 max-md:mt-10">
-                        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/99148d591213e2bf22cc1db616728f37ff1f5003314513a4735975cd4f9ad438?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="object-cover absolute inset-0 size-full" />
-                        <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/de26c23a88d158d6db0e386da0a9986c67a5d3c86625a6fa17259e8b19c25bc8?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="max-w-full aspect-[0.78] fill-cyan-600 w-[205px]" />
-                      </div>
-                    </div>
-                    <div className="flex flex-col ml-5 w-[67%] max-md:ml-0 max-md:w-full">
-                      <h1 className="mt-56 text-7xl font-bold text-center text-white leading-[86px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
-                        Partir à la découverte <br /> de soi et des autres
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex flex-col items-center self-end mt-4 max-w-full font-medium text-right text-white w-[979px]">
-                  <button className="px-8 py-4 ml-32 text-base whitespace-nowrap bg-cyan-600 rounded backdrop-blur-2xl max-md:px-5">
-                    Contact
-                  </button>
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c68d799db48ef18ad220a1f14d71346b898a4a7df0a8ca4e5737dfd40e1af37f?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="mt-6 ml-32 aspect-[3.03] w-[60px]" />
-                  <div className="flex gap-5 self-stretch px-5 mt-24 text-lg max-md:flex-wrap max-md:mt-10">
-                    <div className="w-[249px]">+ de 400 personnes rencontrées</div>
-                    <div className="shrink-0 self-start max-w-full h-2.5 border border-solid backdrop-blur-[15px] bg-neutral-200 border-neutral-200 w-[802px]" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-col ml-5 w-[21%] max-md:ml-0 max-md:w-full">
-              <div className="flex overflow-hidden relative flex-col grow items-end px-16 pt-20 mt-72 text-lg font-medium text-right text-white aspect-[0.74] fill-cyan-600 max-md:mt-10">
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/9257c2c994f4dd2ae68cd9290d6b77dc7c67cf5ec85e1e137f5bf6c8b08801f6?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="object-cover absolute inset-0 size-full" />
-                <div className="flex overflow-hidden relative flex-col justify-center items-start pt-40 pb-16 mt-20 max-w-full aspect-[0.78] fill-cyan-600 w-[205px] max-md:pt-10 max-md:pr-5 max-md:mt-10">
-                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b54209289b2de6335d334aeda4e10f94f53d5d6b5de9ca845eef7bee5dc5b41?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="object-cover absolute inset-0 size-full" />
-                  + de 20 évènements organisés{" "}
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+<Hero/>
 
         <section className="flex flex-col mt-11">
           <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/45bec6361af1066976d4ddeae14d7edd213265b3749eafb802416e30bcd2b6a8?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="self-center ml-24 aspect-[0.56] fill-teal-300 fill-opacity-20 w-[49px] max-md:mt-10" />
@@ -140,7 +101,7 @@ function Accueil() {
 <div className="flex flex-col ml-5 w-[42%] max-md:ml-0 max-md:w-full">
 <div className="flex flex-col self-stretch my-auto max-md:mt-10 max-md:max-w-full">
 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0ef624da5f44fe71e707cf83187f9e64296bcdc127fa7be056c5c5980e7c8712?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="self-end mr-32 aspect-[0.58] fill-yellow-600 fill-opacity-20 w-[34px] max-md:mr-2.5" />
-<img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/188e79e320f7849f215d13e45c0617d46b8102952f9ec231eabc8cc8d28293b3?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="Event image" className="mt-7 w-full rounded-3xl aspect-[0.7] max-md:max-w-full" />
+<img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/188e79e320f7849f215d13e45c0617d46b8102952f9ec231eabc8cc8d28293b3?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="Event" className="mt-7 w-full rounded-3xl aspect-[0.7] max-md:max-w-full" />
 </div>
 </div>
 </div>
@@ -178,26 +139,9 @@ function Accueil() {
  {/*Mettre le composants derniers évenements ici */}
 
 </section>
+<BandeauDon/>
 
 
-<section className="flex flex-col px-9 w-full text-white max-md:px-5 max-md:max-w-full">
-<div className="flex gap-5 justify-between max-md:flex-wrap max-md:max-w-full">
-<img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/47569168a16999523ccf92a53017033a58b7015c8374c5f95adf8aa314852947?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="shrink-0 self-start mt-1.5 aspect-[0.56] fill-teal-300 fill-opacity-20 w-[49px]" />
-<div className="flex overflow-hidden relative flex-col justify-center items-center rounded-3xl px-16 py-20 w-4/5 min-h-[384px] max-md:px-5 max-md:max-w-full">
-<img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/2d9527dbadd8ba7bffbdc38ce649ea0b4701ce0e4e5720aeb3eadece54fa596e?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="Background image" className="object-cover absolute inset-0 size-full" />
-<div className="flex relative flex-col mt-6 max-w-full w-[784px]">
-<h2 className="text-5xl font-bold text-center leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-Vous pouvez contribuer à la réussite de notre association
-</h2>
-<button className="self-center px-8 py-4 mt-11 text-base font-medium text-right bg-cyan-600 rounded backdrop-blur-2xl max-md:px-5 max-md:mt-10">
-Je fais un don
-</button>
-</div>
-</div>
-<img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f18a810b2d8981437692f4ca0bfa9fc49567be0c32f047d19f0a59d2825ce65?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="shrink-0 my-auto w-10 aspect-[0.77] fill-yellow-600 fill-opacity-20" />
-</div>
-<img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff6093fe7d1486a2f0122fcb78189e246df669473ca0cb41d9203e57b54fffb4?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="mt-4 ml-64 aspect-[0.85] fill-yellow-600 fill-opacity-20 w-[42px] max-md:ml-2.5" />
-</section>
 </main>
 
 </div>
