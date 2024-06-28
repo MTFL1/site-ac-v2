@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from './ui/Hero';
 import BandeauDon from "../../components/BandeauDon"
+import QuiSommesNous from "./ui/QuiSommesNous"
 
 
 
@@ -25,32 +26,10 @@ function Accueil() {
     <div className="flex flex-col pt-4 bg-white">
  
       <main>
-<Hero/>
+        
+      <Hero/>
+<QuiSommesNous/>
 
-        <section className="flex flex-col mt-11">
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/45bec6361af1066976d4ddeae14d7edd213265b3749eafb802416e30bcd2b6a8?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="self-center ml-24 aspect-[0.56] fill-teal-300 fill-opacity-20 w-[49px] max-md:mt-10" />
-          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/077526e80df6595ab71c00788b3a9e12ea1dfdd7ed1017c00c1c9e91f217aab0?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="z-10 mt-0 w-9 aspect-[0.67] fill-yellow-600 fill-opacity-20" />
-          <div className="flex gap-1 self-end mr-10 max-w-full w-[544px] max-md:flex-wrap max-md:mr-2.5">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/60c06f7ff069fcd0be6d3740b79504c02dee3ebdfb826f57eccf5f04468443a4?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="Event" className="grow shrink-0 rounded-3xl aspect-[0.86] basis-0 w-fit max-md:max-w-full" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f18a810b2d8981437692f4ca0bfa9fc49567be0c32f047d19f0a59d2825ce65?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="shrink-0 self-end w-10 aspect-[0.77] fill-yellow-600 fill-opacity-20 mt-[493px] max-md:mt-10" />
-          </div>
-          <div className="flex z-10 flex-col mt-0 ml-28 max-w-full text-base w-[725px] max-md:mt-0">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/762240a751cf47dfac607bc8b139686351e07ad7ad291bfadc36cf5a80278f90?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="ml-5 border-2 border-gray-800 border-solid aspect-[33.33] stroke-[2px] stroke-gray-800 w-[72px] max-md:ml-2.5" />
-            <div className="flex flex-col self-end mt-12 max-w-full w-[608px] max-md:mt-10">
-              <h2 className="text-5xl font-bold text-gray-800 leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
-                Nous offrons des lieux d'échange et de partage
-              </h2>
-              <p className="mt-10 leading-7 text-zinc-600 max-md:mt-10 max-md:max-w-full">
-                L'antre Connaissance est une association loi 1901, son but principal est de contribuer au développement et à l'épanouissement de l'individu dans toutes ses dimensions : physique, psychologique, spirituelle.
-              </p>
-              <button className="self-start px-8 py-4 mt-16 font-medium text-right text-white bg-cyan-600 rounded backdrop-blur-2xl max-md:px-5 max-md:mt-10">
-                En savoir plus
-              </button>
-            </div>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/3f18a810b2d8981437692f4ca0bfa9fc49567be0c32f047d19f0a59d2825ce65?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="mt-28 w-10 aspect-[0.77] fill-yellow-600 fill-opacity-20 max-md:mt-10" />
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/63a208cac7ddbbf3a15a6e3e9d3c02175daca589d041b2b78150d30699c54930?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="z-10 self-end mt-0 mr-28 aspect-[0.65] fill-teal-300 fill-opacity-20 w-[54px] max-md:mr-2.5" />
-          </div>
-        </section>
 
         <section className="flex flex-col justify-center -mt-8 w-full bg-gray-900 max-md:max-w-full">
           <div className="px-20 pt-10 pb-20 w-full bg-gray-900 max-md:px-5 max-md:max-w-full">
