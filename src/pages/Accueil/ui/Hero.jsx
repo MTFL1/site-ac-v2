@@ -31,12 +31,15 @@ function Hero() {
                 
 {/* Centre */}
 <section className="WelcomeBanner w-[50%] relative max-md:w-full max-md:h-[33vh] ">
-                    <div className="absolute inset-0 m-auto max-w-xs h-[357px] blur-[118px] sm:max-w-md md:max-w-lg" style={{ background: "linear-gradient(106.89deg, rgba(255, 255, 255, 0.2) 0%, rgba(192, 192, 192, 0.3) 100%)" }}></div>
-                    <div className="relative z-7 max-w-screen-xl mx-auto px-4 py-28 md:px-8 max-md:py-10 ">
-                        <div className="space-y-5 max-w-4xl mx-auto text-center ">
-                            <h2 className="text-4xl text-[#f4f3f3] font-extrabold mx-auto md:text-5xl max-md:text-3xl ">
-                                Partir à la découverte <br /> de soi et des autres
-                            </h2>
+      <div className="relative z-7 max-w-screen-xl w-[100%] mx-auto px-4 py-28 md:px-8 max-md:py-10 ">
+        <div className="space-y-9 max-w-4xl mx-auto text-center ">
+          <div className="text-center space-y-6">
+            <h1 className="w-[100%] text-white-800 font-extrabold text-7xl md:text-6xl max-md:text-2xl leading-tight md:leading-snug max-md:leading-normal py-6 md:py-10">
+              Partir à la découverte de
+              <span className="text-cyan-600"> soi </span>
+             et des <span className="text-cyan-600"> autres</span>
+            </h1>
+          </div>
                             <div className="justify-center items-center gap-x-3 sm:flex">
                                 <a href="#contact">
                                     <button className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-white font-bold bg-cyan-600 hover:bg-cyan-700 hover:text-[#f4f3f3] active:bg-[#4f7090] duration-150 rounded-lg sm:mt-0 sm:w-auto">

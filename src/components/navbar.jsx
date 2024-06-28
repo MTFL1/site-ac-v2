@@ -16,14 +16,14 @@ import logoNav from '../img/logoNav.jpg'
   ]
 
   return (
-      <nav className="bg-white w-full border-b md:border-0 md:static z-99999999999">
+      <nav className="bg-white w-full md:static">
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-              <div className="flex items-center justify-between py-3 md:py-5 md:block">
+              <div className="flex items-center justify-between py-3 md:py-1 md:block">
                     <NavLink to="/">
                         <img
                             src={logoNav}
-                            width={80} 
-                            height={30}
+                            width={100} 
+                            height={60}
                             alt="AC logo"
                         />
                     </NavLink>
