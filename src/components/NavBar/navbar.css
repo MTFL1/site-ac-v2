@@ -1,0 +1,10 @@
+/* Styles pour la classe active */
+.active {
+    color: #06b6d4;
+    font-weight: 500; /* Même couleur que le hover */
+}
+
+/* Vous pouvez également ajouter des styles supplémentaires si nécessaire */
+.active:hover {
+    color: #06b6d4; 
+}

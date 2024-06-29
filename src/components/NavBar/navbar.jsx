@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logoNav from '../img/logoNav.jpg';
-import './navbar.css'
+import logoNav from '../../img/logoNav.jpg';
+import './navbar.css'; 
 
 function Navbar() {
     const [state, setState] = useState(false);
@@ -15,7 +15,7 @@ function Navbar() {
         { title: "Contact", path: "/contact" }
     ];
 
-     return (
+    return (
         <nav className="bg-white w-full md:static relative">
             <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
                 <div className="flex items-center justify-between py-3 md:py-1 md:block">
@@ -25,7 +25,7 @@ function Navbar() {
                             width={100}
                             height={60}
                             alt="AC logo"
-                            className="nav-logo" // Ajouter la classe ici
+                            className="nav-logo"
                         />
                     </NavLink>
                     <div className="md:hidden">
@@ -51,7 +51,7 @@ function Navbar() {
                         {
                             navigation.map((item, idx) => (
                                 <li key={idx} className="text-gray-900 hover:text-cyan-600">
-                                    <NavLink to={item.path}>
+                                    <NavLink to={item.path} activeclassname="active" exact="true">
                                         {item.title}
                                     </NavLink>
                                 </li>

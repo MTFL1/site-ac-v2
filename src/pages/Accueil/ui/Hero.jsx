@@ -5,7 +5,7 @@ import "../ui/Hero.css"
 
 function Hero() {
     return (
-        <section className="section-hero relative h-[80vh] top-0 left-0 w-full bg-gray-900 max-md:max-w-full ">
+        <section className="section-hero relative h-[85vh] top-0 left-0 w-full bg-gray-900 max-md:max-w-full ">
             <div className="flex  max-md:flex-col max-md:gap-0">
                 {/* Gauche */}
                 <div className="section-branche absolute flex flex-col w-[25%] max-md:ml-0 max-md:w-full">
@@ -30,7 +30,7 @@ function Hero() {
                 </div>
                 
 {/* Centre */}
-<section className="WelcomeBanner w-[100%] relative z-10 justify-center items-center  max-md:w-full max-md:h-[38vh]">
+<section className="WelcomeBanner w-[100%] relative z-10 justify-center items-center h-[85vh] max-md:w-full max-md:h-[38vh]">
       <div className="relative z-7 max-w-screen-xl w-[100%] mx-auto px-4 py-28 md:px-8 max-md:py-10 ">
         <div className="max-w-4xl mx-auto text-center ">
           <div className="text-center space-y-6">
