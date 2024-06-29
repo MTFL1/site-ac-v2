@@ -5,7 +5,7 @@ import "../ui/Hero.css"
 
 function Hero() {
     return (
-        <section className="section-hero relative top-0 left-0 w-full bg-gray-900 max-md:max-w-full ">
+        <section className="section-hero relative h-[80vh] top-0 left-0 w-full bg-gray-900 max-md:max-w-full ">
             <div className="flex  max-md:flex-col max-md:gap-0">
                 {/* Gauche */}
                 <div className="section-branche absolute flex flex-col w-[25%] max-md:ml-0 max-md:w-full">
@@ -30,7 +30,7 @@ function Hero() {
                 </div>
                 
 {/* Centre */}
-<section className="WelcomeBanner w-[100%] relative z-10 justify-center items-center max-md:w-full max-md:h-[33vh]">
+<section className="WelcomeBanner w-[100%] relative z-10 justify-center items-center  max-md:w-full max-md:h-[38vh]">
       <div className="relative z-7 max-w-screen-xl w-[100%] mx-auto px-4 py-28 md:px-8 max-md:py-10 ">
         <div className="max-w-4xl mx-auto text-center ">
           <div className="text-center space-y-6">
@@ -42,7 +42,7 @@ function Hero() {
           </div>
                             <div className="flex justify-center items-center gap-x-3 sm:flex">
                                 <a href="#contact">
-                                    <button className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 text-sm text-white font-bold bg-cyan-600 hover:bg-cyan-700 hover:text-[#f4f3f3] active:bg-[#4f7090] duration-150 rounded-lg sm:mt-0 sm:w-auto">
+                                    <button className="flex items-center justify-center gap-x-2 py-2.5 px-8 mt-3 text-sm text-white font-bold bg-cyan-600 hover:bg-cyan-700 hover:text-[#f4f3f3] active:bg-[#4f7090] duration-150 rounded-lg sm:mt-0 sm:w-auto">
                                         Contact
                                     </button>
                                 </a>
@@ -79,7 +79,7 @@ function Hero() {
                 </section>
                 
                 {/* Droite */}
-                <div className="section-branche absolute bottom-0 right-0 flex flex-col w-[25%] max-md:ml-0 max-md:w-full">
+                <div className="section-branche absolute z-1 bottom-0 right-0 flex flex-col w-[25%] max-md:ml-0 max-md:w-full">
                     <div className="flex overflow-hidden relative flex-col grow items-end px-16 pt-20 mt-72 text-lg font-medium text-right text-white aspect-[0.74] fill-cyan-600 max-md:mt-10">
                         <div className="absolute bottom-0 right-0">
                             <img
