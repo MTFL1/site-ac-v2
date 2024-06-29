@@ -9,11 +9,6 @@ import DernierEvent from "./ui/DernierEvent";
 
 
 
-
-
-
-
-
 function Accueil() {
   return (
     <div className="flex flex-col pt-4 bg-white">
@@ -24,18 +19,7 @@ function Accueil() {
       <ScrollToTopButton/>
       <ProchainEvent/>
       <DernierEvent/>
-
-
-        
-
-
-
-
-
- {/*Mettre le composants derniers évenements ici */}
-
-
-<BandeauDon/>
+      <BandeauDon/>
 </main>
 </div>
 );
