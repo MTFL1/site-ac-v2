@@ -14,7 +14,7 @@ function BandeauDon() {
         <h2 className="text-5xl font-bold text-center leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
         Vous pouvez contribuer à la réussite de notre association
         </h2>
-        <button className="self-center px-8 py-4 mt-11 text-base font-medium text-right bg-cyan-600 rounded-2xl  max-md:px-5 max-md:mt-10">
+        <button className="self-center px-8 py-4 mt-11 text-base font-bold bg-cyan-600 rounded-2xl  max-md:px-5 max-md:mt-10">
         Je fais un don
         </button>
         </div>
