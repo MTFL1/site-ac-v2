@@ -11,7 +11,7 @@ import logoNav from '../img/logoNav.jpg'
       { title: "À propos", path: "/a propos" },
       { title: "Évènements", path: "/evenements" },
       { title: "Antre-connaissance", path: "/antreConnaissance" },
-      { title: "Entre-connaissance", path: "/entre-connaissance" },
+      { title: "Entre-connaissance", path: "/entreConnaissance" },
       { title: "Contact", path: "/contact" }
   ]
 

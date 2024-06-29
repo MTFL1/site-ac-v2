@@ -64,7 +64,7 @@ function Footer () {
 
     return (
 <footer className="relative pt-10 bg-gray-900">
-    <div className="max-w-screen-xl mx-auto px-4 md:px-8">
+    <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="justify-between items-center gap-12 md:flex">
             <div className="flex-1 max-w-lg">
                 <h3 className="text-white text-2xl font-bold">
