@@ -23,17 +23,18 @@ return(
           <div className="flex items-center space-x-3">
             <span className="block w-10 h-1 bg-cyan-600"></span>
             <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-          Évènements
+          Évènements à la une
           </p>
           </div>
          
           <p className="mt-3 text-gray-600 text-xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.          </p>
-          <a href="">
-            <button className="flex items-center justify-center gap-x-2 py-3.5 px-8 mt-6 mb-8 text-sm text-white font-bold bg-cyan-600 hover:bg-cyan-700 hover:text-[#f4f3f3] active:bg-[#4f7090] duration-150 rounded-lg sm:mt-6 sm:w-auto">
-                En savoir plus
-            </button>
-          </a>
+          <a href="" className="inline-flex gap-x-1 py-4 items-center text-cyan-600 hover:text-indigo-500 duration-150 font-medium">
+          Je m'inscris
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
+            <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
+          </svg>
+        </a>
         </div>
         <div className="flex-1 sm:hidden lg:block">
           <img src={Flyer4} className="md:max-w-lg rounded-lg max-md:w-[90%] max-md:mx-auto" alt="" />

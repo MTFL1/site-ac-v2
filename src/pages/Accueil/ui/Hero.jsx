@@ -42,7 +42,7 @@ function Hero() {
           </div>
                             <div className="flex justify-center items-center gap-x-3 sm:flex">
                                 <a href="#contact">
-                                    <button className="flex items-center justify-center gap-x-2 py-2.5 px-8 mt-3 text-sm text-white font-bold bg-cyan-600 hover:bg-cyan-700 hover:text-[#f4f3f3] active:bg-[#4f7090] duration-150 rounded-lg sm:mt-0 sm:w-auto">
+                                    <button className="flex items-center justify-center gap-x-2 p-3.5 px-8 mt-3 text-sm text-white font-bold bg-cyan-600 hover:bg-cyan-700 hover:text-[#f4f3f3] active:bg-[#4f7090] duration-150 rounded-lg sm:mt-0 sm:w-auto">
                                         Contact
                                     </button>
                                 </a>

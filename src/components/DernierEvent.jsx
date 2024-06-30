@@ -49,7 +49,7 @@ import Flyer3 from "../img/Flyer3.png"
                             src={items.img}
                             loading="lazy"
                             alt={items.title}
-                            className="absolute inset-0 w-full h-full object-fill rounded-lg"
+                            className="absolute inset-0 shadow-md w-full h-full object-fill rounded-lg"
                           />
                         </div>
                       </a>

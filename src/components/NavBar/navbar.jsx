@@ -57,9 +57,9 @@ function Navbar() {
                                 </li>
                             ))
                         }
-                        {/* Ajouter le bouton "Don" dans le menu mobile */}
+                        {/* Ajoute le bouton "Don" dans le menu mobile */}
                         <li className="text-gray-900 hover:text-cyan-600 md:hidden">
-                            <a href="#" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow">
+                            <a href="#" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
                                 Don
                             </a>
                         </li>
@@ -67,7 +67,7 @@ function Navbar() {
                 </div>
                 {/* Bouton "Don" visible uniquement en mode bureau */}
                 <div className="hidden md:inline-block">
-                    <a href="#" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow">
+                    <a href="#" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
                         Don
                     </a>
                 </div>

@@ -90,7 +90,7 @@ import Sagesse9 from "../../../img/Sagesse9.jpg"
                             src={items.img}
                             loading="lazy"
                             alt={items.title}
-                            className="absolute inset-0 w-full h-full object-fill rounded-lg"
+                            className="absolute inset-0 shadow-md w-full h-full object-fill rounded-lg"
                           />
                         </div>
                       </a>
