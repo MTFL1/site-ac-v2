@@ -23,7 +23,7 @@ return(
           <div className="flex items-center space-x-3">
             <span className="block w-10 h-1 bg-cyan-600"></span>
             <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-          Évènements à la une
+          Évènements à la Une
           </p>
           </div>
          

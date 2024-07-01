@@ -33,7 +33,8 @@ function QuiSommesNousApropos() {
                 <h3 className="text-cyan-600 font-bold">QUI SOMMES NOUS</h3>
               </div>
               <p className="text-white text-2xl font-semibold sm:text-2xl">
-                L'antre Connaissance est une association loi 1901
+                Partir à la découverte de <span className="text-cyan-600"> soi </span>
+                et des <span className="text-cyan-600"> autres</span>
               </p>
               <p className="mt-3 text-white text-xl">
                 Notre but principal est de contribuer au développement et à
