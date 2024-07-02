@@ -1,7 +1,5 @@
 import React from "react";
-import Flyer1 from "../../../img/Flyer1.webp"
-import Flyer2 from "../../../img/Flyer2.png"
-import Flyer3 from "../../../img/Flyer3.png"
+
 import Sagesse1 from "../../../img/Sagesse1.jpg"
 import Sagesse2 from "../../../img/Sagesse2.jpg"
 import Sagesse3 from "../../../img/Sagesse3.jpg"

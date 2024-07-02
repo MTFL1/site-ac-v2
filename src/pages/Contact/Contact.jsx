@@ -1,5 +1,7 @@
 import React from "react";
 import Toulouse from "../Contact/ui/Toulouse";
+import BrancheLogoFooter from "../../img/brancheLogoFooter.svg"
+
 
 
 function Contact  ()  {
@@ -92,6 +94,14 @@ function Contact  ()  {
     </div>
     </div>
     </section>
+    <div className="absolute top-0 left-0 rotate-180">
+        <img 
+            loading="lazy" 
+            src={BrancheLogoFooter} 
+            alt="motif background" 
+            className="w-[250px] aspect-[0.65]" 
+        />
+    </div>
     </main>
     <Toulouse/>
     </>

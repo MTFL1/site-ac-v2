@@ -48,7 +48,7 @@ function Footer () {
             ]
         },
         {
-            label: "Connexion",
+            label: "Réseaux sociaux",
             items: [
                 {
                     href: 'https://www.instagram.com/lantreconnaissance31/',
@@ -122,7 +122,7 @@ function Footer () {
                 ))
             }
         </div>
-        <div className="mt-10 py-10 border-t border-gray-700 flex items-center justify-between">
+        <div className="mt-10 py-10 border-t border-gray-700 flex flex-col justify-between md:flex-row">
             <div>
                 <p className="text-gray-300">© 2024 L'Antre connaissance. Tous droits réservés.</p>
                 <p className="text-gray-300">Fait avec ❤️ par <a className="text-cyan-600" href="https://www.atelierdecember.fr/">Atelier December</a></p>
