@@ -65,7 +65,9 @@ function Footer () {
     return (
 <footer className="relative pt-10 bg-gray-900">
     <div className="relative z-10 max-w-screen-xl mx-auto px-4 md:px-8">
-        <div className="justify-between items-center gap-12 md:flex">
+         {/** 
+          * 
+   <div className="justify-between items-center gap-12 md:flex">
             <div className="flex-1 max-w-lg">
                 <h3 className="text-white text-2xl font-bold">
                 S'abonner pour être informé des prochains évènements
@@ -90,6 +92,7 @@ function Footer () {
                 </form>
             </div>
         </div>
+         */}
         <div className="flex-1 mt-16 space-y-6 justify-between sm:flex md:space-y-0">
             <img 
                 loading="lazy" 

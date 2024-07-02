@@ -124,13 +124,13 @@ function Hero() {
                 
                 {/* Droite */}
                 <div className="section-branche absolute z-1 bottom-0 right-0 flex flex-col w-[25%] max-md:ml-0 max-md:w-full">
-                    <div className="flex overflow-hidden relative flex-col grow items-end px-16 pt-20 mt-72 text-lg font-medium text-right text-white aspect-[0.74] fill-cyan-600 max-md:mt-10">
+                    <div className="flex relative flex-col grow items-end px-16 pt-20 mt-72 text-lg font-medium text-right text-white aspect-[0.74] fill-cyan-600 max-md:mt-10">
                         <div className="absolute bottom-0 right-0">
                             <img
                                 loading="lazy"
                                 src={BrancheLogoFooter}
                                 alt="motif background"
-                                className="b-1 w-[150px] aspect-[0.65]"
+                                className="b-1 aspect-[0.65]"
                             />
                         </div>
                         <div className="absolute bottom-0 right-0">
@@ -138,7 +138,7 @@ function Hero() {
                                 loading="lazy"
                                 src={BrancheLogoFooter}
                                 alt="motif background"
-                                className="b-2 w-[250px] aspect-[0.65]"
+                                className="b-2 aspect-[0.65]"
                             />
                         </div>
                     </div>
