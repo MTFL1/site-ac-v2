@@ -9,10 +9,7 @@ function PageEvenement() {
     <main>
     <BanniereEvenement/>
     <DetailsEvenements/>
-      
-       
-      
-      </main>
+    </main>
   );
 }
 

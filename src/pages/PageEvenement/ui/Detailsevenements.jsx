@@ -92,7 +92,7 @@ function DetailsEvenements() {
         </p>
 
         {/* Image */}
-        <img loading="lazy" src={Flyer4} alt="Description de l'image" className="object-cover mb-6 w-full" />
+        <img loading="lazy" src={Flyer4} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
         {/* Deuxième paragraphe */}
         <p className="text-justify leading-7 mb-6">
