@@ -30,15 +30,15 @@ return(
          
           <p className="mt-3 text-gray-600 text-xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.          </p>
-          <a href="" className="inline-flex gap-x-1 py-4 items-center text-cyan-600 hover:text-indigo-500 duration-150 font-medium">
-          Je m'inscris
+          <a href="/pageEvenement" className="inline-flex gap-x-1 py-4 items-center text-cyan-600 hover:text-indigo-500 duration-150 font-medium">
+          En savoir plus
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
             <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
           </svg>
         </a>
         </div>
         <div className="flex-1 sm:hidden lg:block">
-          <img src={Flyer4} className="md:max-w-lg rounded-lg max-md:w-[90%] max-md:mx-auto" alt="" />
+          <img src={Flyer4} className="md:max-w-lg rounded-lg max-md:w-[93%] max-md:mx-auto" alt="" />
         </div>
       </div>
     </div>

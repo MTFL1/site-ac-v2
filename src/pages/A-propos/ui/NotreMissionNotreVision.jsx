@@ -21,7 +21,7 @@ function NotreMissionNotreVision() {
                     <div className="flex items-center space-x-3">
                     <h3 className="text-cyan-600 font-bold">NOTRE MISSION</h3>
                     </div>
-                    <p className="mt-3 text-gray-600 text-xl text-justify first-letter:text-7xl first-letter:mr-3 first-letter:float-left">
+                    <p className="mt-3 text-gray-900 text-xl text-justify first-letter:text-7xl first-letter:mr-3 first-letter:float-left">
                     Antre de la connaissance, une grotte de savoir. L'objectif de
                     l'association est d'essayer d'éveillez à l'amour de la sagesse par
                     l'étude et la diffusion du savoir peu importe sa nature, qu'il
@@ -34,7 +34,7 @@ function NotreMissionNotreVision() {
                 <div className="flex items-center space-x-3">
                     <h3 className="text-cyan-600 font-bold">NOTRE VISION</h3>
                 </div>
-                <p className="mt-3 text-gray-600 text-xl text-justify first-letter:text-7xl first-letter:mr-3 first-letter:float-left">
+                <p className="mt-3 text-gray-900 text-xl text-justify first-letter:text-7xl first-letter:mr-3 first-letter:float-left">
                     Entre connaissance, le vivre ensemble, fraternité entre les
                     individus et les peuples dans un esprit de bienveillance et
                     d'amitié. Pour ce faire nous proposons des espaces de rencontre

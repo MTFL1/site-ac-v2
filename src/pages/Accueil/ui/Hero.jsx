@@ -6,7 +6,7 @@ import "../ui/Hero.css"
 
 function Hero() {
     return (
-        <section className="section-hero relative h-[85vh] top-0 left-0 w-full bg-gray-900 max-md:max-w-full ">
+        <section className="section-hero overflow-hidden relative h-[85vh] top-0 left-0 w-full bg-gray-900 max-md:max-w-full ">
             <div className="flex  max-md:flex-col max-md:gap-0">
                 {/* Gauche */}
                 <div className="section-branche absolute flex flex-col w-[25%] max-md:ml-0 max-md:w-full">
