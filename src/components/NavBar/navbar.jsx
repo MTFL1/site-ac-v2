@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import logoNav from '../../img/logoNav.jpg';
-import './navbar.css'; 
+import './navbar.css';
 
 function Navbar() {
     const [state, setState] = useState(false);
@@ -16,9 +16,9 @@ function Navbar() {
     ];
 
     return (
-        <nav className="bg-white w-full md:static relative">
-            <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
-                <div className="flex items-center justify-between py-3 md:py-1 md:block">
+        <nav className="bg-white w-full lg:static relative">
+            <div className="items-center px-4 max-w-screen-xl mx-auto lg:flex lg:px-8">
+                <div className="flex items-center justify-between py-3 lg:py-1 lg:block">
                     <NavLink to="/">
                         <img
                             src={logoNav}
@@ -28,7 +28,7 @@ function Navbar() {
                             className="nav-logo"
                         />
                     </NavLink>
-                    <div className="md:hidden">
+                    <div className="lg:hidden">
                         <button className="text-gray-700 outline-none p-2 rounded-md focus:border-gray-400 focus:border"
                             onClick={() => setState(!state)}
                         >
@@ -46,8 +46,8 @@ function Navbar() {
                         </button>
                     </div>
                 </div>
-                <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${state ? 'block' : 'hidden'}`}>
-                    <ul className="justify-center items-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                <div className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${state ? 'block' : 'hidden'}`}>
+                    <ul className="justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
                         {
                             navigation.map((item, idx) => (
                                 <li key={idx} className="text-gray-900 hover:text-cyan-600">
@@ -57,8 +57,8 @@ function Navbar() {
                                 </li>
                             ))
                         }
-                        {/* Ajoute le bouton "Don" dans le menu mobile */}
-                        <li className="text-gray-900 hover:text-cyan-600 md:hidden">
+                        {/* Ajoute le bouton "Don" dans le menu mobile et tablette */}
+                        <li className="text-gray-900 hover:text-cyan-600 lg:hidden">
                             <a href="#" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
                                 Don
                             </a>
@@ -66,7 +66,7 @@ function Navbar() {
                     </ul>
                 </div>
                 {/* Bouton "Don" visible uniquement en mode bureau */}
-                <div className="hidden md:inline-block">
+                <div className="hidden lg:inline-block">
                     <a href="#" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
                         Don
                     </a>
