@@ -1,7 +1,7 @@
 import React from "react";
 import Flyer1 from "../img/Flyer1.webp"
-import Flyer2 from "../img/Flyer2.png"
-import Flyer3 from "../img/Flyer3.png"
+import Flyer2 from "../img/Flyer2.webp"
+import Flyer3 from "../img/Flyer3.webp"
 
     function DernierEvent(){
 

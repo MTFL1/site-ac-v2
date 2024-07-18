@@ -1,5 +1,5 @@
 import React from "react";
-import ImageToulouse from "../../../img/ImageToulouse.jpg"
+import ImageToulouse from "../../../img/ImageToulouse.webp"
 
 
 

@@ -1,14 +1,14 @@
 import React from "react";
 
-import Sagesse1 from "../../../img/Sagesse1.jpg"
-import Sagesse2 from "../../../img/Sagesse2.jpg"
-import Sagesse3 from "../../../img/Sagesse3.jpg"
-import Sagesse4 from "../../../img/Sagesse4.jpg"
-import Sagesse5 from "../../../img/Sagesse5.jpg"
-import Sagesse6 from "../../../img/Sagesse6.jpg"
-import Sagesse7 from "../../../img/Sagesse7.jpg"
-import Sagesse8 from "../../../img/Sagesse8.jpg"
-import Sagesse9 from "../../../img/Sagesse9.jpg"
+import Sagesse1 from "../../../img/Sagesse1.webp"
+import Sagesse2 from "../../../img/Sagesse2.webp"
+import Sagesse3 from "../../../img/Sagesse3.webp"
+import Sagesse4 from "../../../img/Sagesse4.webp"
+import Sagesse5 from "../../../img/Sagesse5.webp"
+import Sagesse6 from "../../../img/Sagesse6.webp"
+import Sagesse7 from "../../../img/Sagesse7.webp"
+import Sagesse8 from "../../../img/Sagesse8.webp"
+import Sagesse9 from "../../../img/Sagesse9.webp"
 
 
     function Sagesse(){
