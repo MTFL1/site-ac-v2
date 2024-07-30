@@ -9,22 +9,22 @@ function QueFaisonsNous() {
         {
            
             title: "Conférences",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+            desc: "Nous proposons des conférences sur divers sujets. Elles sont animées par des experts et permettent des échanges enrichissants."
         },
         {
           
             title: "Maraudes",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+            desc: "Nos maraudes visent à aider les personnes sans-abri. Nous distribuons des repas et des vêtements, tout en apportant du soutien moral."
         },
         {
           
             title: "Excursions",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+            desc: "Nous organisons des excursions pour découvrir notre région. Ces sorties renforcent les liens entre participants et favorisent la convivialité."
         },
         {
           
             title: "Rencontres interculturelles",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus."
+            desc: "Nos rencontres interculturelles célèbrent la diversité. Elles incluent des ateliers et des discussions pour mieux comprendre les cultures du monde."
         }
     ]
 
@@ -53,9 +53,7 @@ function QueFaisonsNous() {
               <p className="text-3xl font-semibold sm:text-4xl">
                 Quelques activités que nous organisons
               </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius, enim ex faucibus purus
-              </p>
+              
             </div>
             <div className="mt-12 max-w-lg lg:max-w-none">
               <ul className="space-y-8 relative before:content-[''] before:absolute before:top-0 before:left-0 before:w-1 before:h-full before:bg-cyan-600">
