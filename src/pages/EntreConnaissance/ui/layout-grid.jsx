@@ -1,10 +1,13 @@
 import React from 'react';
+import Conf1 from '../../../img/conf1.webp';
+import Conf2 from '../../../img/conf2.webp';
+import Conf3 from '../../../img/conf3.webp';
 
 const LayoutGrid = () => {
   const cards = [
-    { id: 1, thumbnail: 'https://via.placeholder.com/600x150', colSpan: 'col-span-2', rowSpan: 'row-span-1' },
-    { id: 2, thumbnail: 'https://via.placeholder.com/200x200', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
-    { id: 3, thumbnail: 'https://via.placeholder.com/200x200', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
+    { id: 1, thumbnail: Conf1, colSpan: 'col-span-2', rowSpan: 'row-span-1' },
+    { id: 2, thumbnail: Conf2, colSpan: 'col-span-1', rowSpan: 'row-span-1' },
+    { id: 3, thumbnail: Conf3, colSpan: 'col-span-1', rowSpan: 'row-span-1' },
     { id: 4, thumbnail: 'https://via.placeholder.com/600x150', colSpan: 'col-span-2', rowSpan: 'row-span-1' },
     { id: 5, thumbnail: 'https://via.placeholder.com/300x300', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
     { id: 6, thumbnail: 'https://via.placeholder.com/300x300', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
@@ -12,7 +15,7 @@ const LayoutGrid = () => {
 
   return (
     <section className='relative'>
-      <div className="flex items-center space-x-3 top-0 left-0 mt-10 ml-10 md:ml-20">
+      <div className="flex items-center space-x-3 top-0 left-0 mt-10 ml-5 md:ml-20">
         <span className="block w-10 h-1 bg-cyan-600"></span>
         <h3 className="text-grey-600 font-bold">GALLERIE</h3>
       </div>
@@ -27,7 +30,7 @@ const LayoutGrid = () => {
       </div>
       
       <div className="relative flex items-center justify-center">
-        <div className="w-full h-full p-10 grid grid-cols-2 gap-4 max-w-7xl mx-auto grid-rows-auto">
+        <div className="w-full h-full p-5 grid grid-cols-2 gap-4 max-w-7xl mx-auto grid-rows-auto">
           {cards.map((card) => (
             <div 
               key={card.id} 
