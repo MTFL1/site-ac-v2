@@ -1,6 +1,5 @@
 import * as React from "react";
 import BandeauDon from "../../components/BandeauDon";
-import Team from "./ui/Team";
 import QuiSommesNousApropos from "./ui/QuiSommesNousApropos"
 import NotreMissionNotreVision from "./ui/NotreMissionNotreVision"
 
@@ -11,7 +10,6 @@ function About() {
       <main className="flex flex-col">
         <QuiSommesNousApropos/>
         <NotreMissionNotreVision/>
-        <Team/>
         <BandeauDon/>
       </main>
 );

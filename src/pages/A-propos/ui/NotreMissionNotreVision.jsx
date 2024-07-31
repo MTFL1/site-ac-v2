@@ -2,7 +2,7 @@ import React from "react";
 
 function NotreMissionNotreVision() {
   return (
-    <section className="flex justify-center items-center relative self-stretch div-amber px-16 py-20 mt-0 w-full bg-amber-100 max-md:px-5 max-md:mt-0 max-md:max-w-full relative z-0">
+    <section className="flex justify-center items-center relative self-stretch div-amber px-16 py-20 mt-0 mb-20 w-full bg-amber-100 max-md:px-5 max-md:mt-0 max-md:max-w-full relative z-0">
         <div className="petal absolute inset-0 ">
           <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/935a6ee7f9fd189c0e30482ccca18b7d21da452f25b187eccafd44df5cf8bc31?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="absolute top-96 left-14 aspect-[0.5] fill-teal-300 w-[46px]" />
           <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/46275ef2961569416aacd8d6f19a228ae71ea6ff54a99cb2ca928a29317f0f4b?apiKey=aa921c22d5e8470a9701bc1a79b29d5d&" alt="" className="absolute top-9 left-10 aspect-[0.85] fill-yellow-600 opacity-35 w-[42px]" />
@@ -22,7 +22,7 @@ function NotreMissionNotreVision() {
                     <h3 className="text-cyan-600 font-bold">NOTRE MISSION</h3>
                     </div>
                     <p className="mt-3 text-gray-900 text-xl text-justify first-letter:text-7xl first-letter:mr-3 first-letter:float-left">
-                    Antre de la connaissance, une grotte de savoir. L'objectif de
+                    Antre de la connaissance, un espace de savoir. L'objectif de
                     l'association est d'essayer d'éveillez à l'amour de la sagesse par
                     l'étude et la diffusion du savoir peu importe sa nature, qu'il
                     soit moderne ou traditionnel : philosophie, psychologie,
@@ -35,7 +35,7 @@ function NotreMissionNotreVision() {
                     <h3 className="text-cyan-600 font-bold">NOTRE VISION</h3>
                 </div>
                 <p className="mt-3 text-gray-900 text-xl text-justify first-letter:text-7xl first-letter:mr-3 first-letter:float-left">
-                    Entre connaissance, le vivre ensemble, fraternité entre les
+                    Entre connaissance, vivre ensemble, fraternité entre les
                     individus et les peuples dans un esprit de bienveillance et
                     d'amitié. Pour ce faire nous proposons des espaces de rencontre
                     réels, des moments propices à la fraternisation, en étant persuadés

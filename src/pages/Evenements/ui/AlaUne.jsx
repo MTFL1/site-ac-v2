@@ -29,7 +29,8 @@ return(
           </div>
          
           <p className="mt-3 text-gray-600 text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.          </p>
+          Ne manquez pas cette opportunité d'explorer ensemble des perspectives enrichissantes et de participer à une discussion significative sur l'existence de Dieu. Nous avons hâte de vous voir nombreux à cet événement !
+          </p>
           <a href="/pageEvenement" className="inline-flex gap-x-1 py-4 items-center text-cyan-600 hover:text-indigo-500 duration-150 font-medium">
           En savoir plus
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
@@ -38,7 +39,7 @@ return(
         </a>
         </div>
         <div className="flex-1 sm:hidden lg:block">
-          <img src={Flyer4} className="md:max-w-lg rounded-lg max-md:w-[93%] max-md:mx-auto" alt="" />
+          <img src={Flyer4} className="md:max-w-lg rounded-lg border-2 border-cyan-500 max-md:w-[93%] max-md:mx-auto" alt="" />
         </div>
       </div>
     </div>

@@ -12,33 +12,33 @@ function NosDernieresVideo() {
     const team = [
         {
             avatar: Video1,
-            name: "Sheikh AbdulAziz Al Amghari",
-            date: "30 Juin 2024"
+            name: "Vidéo en construction",
+            date: ""
         },
         {
             avatar: Video2,
-            name: "Sheikh AbdulAziz Al Amghari",
-            date: "30 Juin 2024"
+            name: "Vidéo en construction",
+            date: ""
         },
         {
             avatar: Video3,
-            name: "Sheikh AbdulAziz Al Amghari",
-            date: "30 Juin 2024"
+            name: "Vidéo en construction",
+            date: ""
         },
         {
             avatar: Video4,
-            name: "Sheikh AbdulAziz Al Amghari",
-           date: "30 Juin 2024"
+            name: "Vidéo en construction",
+           date: ""
         },
         {
             avatar: Video5,
-            name: "Sheikh AbdulAziz Al Amghari",
-            date: "30 Juin 2024"
+            name: "Vidéo en construction",
+            date: ""
         },
         {
             avatar: Video6,
-            name: "Sheikh AbdulAziz Al Amghari",
-            date: "30 Juin 2024"
+            name: "Vidéo en construction",
+            date: ""
         },
     ]
 

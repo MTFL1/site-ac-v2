@@ -17,47 +17,47 @@ import Sagesse9 from "../../../img/Sagesse9.webp"
             {
                 title: "Flyer",
                 img: Sagesse1,
-                href: "#"
+                href: "https://www.instagram.com/p/CzMfs3tN1sd/?img_index=1"
             },
             {
-                title: "A Quick Guide to WordPress Hosting",
+                title: "Flyer",
                 img: Sagesse2,
-                href: "#"
+                href: "https://www.instagram.com/p/CzhAHucNmXu/?img_index=1"
             },
             {
-                title: "A Quick Guide to WordPress Hosting",
+                title: "Flyer",
                 img: Sagesse3,
-                href: "#"
+                href: "https://www.instagram.com/p/C0ClScSN0N0/?img_index=1"
             },
             {
                 title: "Flyer",
                 img: Sagesse4,
-                href: "#"
+                href: "https://www.instagram.com/p/C0FYlt0Nivc/?img_index=1"
             },
             {
-                title: "A Quick Guide to WordPress Hosting",
+                title: "Flyer",
                 img: Sagesse5,
-                href: "#"
+                href: "https://www.instagram.com/p/C0riHEJNpoa/?img_index=1"
             },
             {
-                title: "A Quick Guide to WordPress Hosting",
+                title: "Flyer",
                 img: Sagesse6,
-                href: "#"
+                href: "https://www.instagram.com/p/C1ASvsytSGt/?img_index=1"
             },
             {
                 title: "Flyer",
                 img: Sagesse7,
-                href: "#"
+                href: "https://www.facebook.com/photo.php?fbid=677053627964788&set=pb.100069804702780.-2207520000&type=3"
             },
             {
-                title: "A Quick Guide to WordPress Hosting",
+                title: "Flyer",
                 img: Sagesse8,
-                href: "#"
+                href: "https://www.instagram.com/p/C27Ec9htuV2/?img_index=1"
             },
             {
-                title: "A Quick Guide to WordPress Hosting",
+                title: "Flyer",
                 img: Sagesse9,
-                href: "#"
+                href: "https://www.facebook.com/photo.php?fbid=702338098769674&set=pb.100069804702780.-2207520000&type=3"
             }
            
         ]

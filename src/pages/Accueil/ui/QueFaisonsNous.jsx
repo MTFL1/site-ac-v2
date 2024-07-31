@@ -23,6 +23,11 @@ function QueFaisonsNous() {
         },
         {
           
+          title: "Initiation à la méditation",
+          desc: "Nous organisons régulièrement des séances de méditation collectives."
+      },
+        {
+          
             title: "Rencontres interculturelles",
             desc: "Nos rencontres interculturelles célèbrent la diversité. Elles incluent des ateliers et des discussions pour mieux comprendre les cultures du monde."
         }

@@ -41,18 +41,6 @@ function QuiSommesNousApropos() {
                 l'épanouissement de l'individu dans toutes ses dimensions :
                 physique, psychologique et spirituelle.
               </p>
-              <div className="flex gap-5 self-start mt-10 font-medium text-white max-md:mt-10">
-                <div className="flex flex-col whitespace-nowrap ">
-                  <div className="text-2xl leading-10 ">400+</div>
-                  <div className="text-l leading-5">
-                    Personnes <br /> rencontrées
-                  </div>
-                </div>
-                <div className="flex flex-col self-start">
-                  <div className="text-2xl leading-10">20+</div>
-                  <div className="text-l">Évènements organisés</div>
-                </div>
-              </div>
             </div>
             <div className="flex flex-col w-[59%] max-md:ml-0 max-md:w-full">
               <img
