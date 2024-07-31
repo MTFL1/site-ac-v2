@@ -26,9 +26,9 @@ function DetailsContact()  {
           <h2 className="text-2xl font-bold leading-10">Discutons-en !</h2>
           <hr className="shrink-0 mt-2 h-px border border-solid bg-neutral-200 border-neutral-200" />
           <div className="gap-5 mt-5">
-            <ContactInfo value="+33 6012346514" label="" />
+            <ContactInfo value="+33 (0)6 41 06 62 83" label="" />
             <div className="flex-auto self-start text-base leading-7">
-              hello@antre-connaissance.com
+            association.lantreconnaissance@gmail.com
             </div>
           </div>
           <address className="mt-6 text-base leading-7 not-italic">

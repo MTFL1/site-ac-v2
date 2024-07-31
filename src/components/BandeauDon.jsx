@@ -14,9 +14,9 @@ function BandeauDon() {
         <h2 className="text-5xl font-bold text-center leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
         Vous pouvez contribuer à la réussite de notre association
         </h2>
-        <button className="self-center px-8 py-4 mt-11 text-base font-bold bg-cyan-600 rounded-xl  max-md:px-5 max-md:mt-10">
+        <a href="https://www.helloasso.com/associations/l-antre-connaissance" className="self-center px-8 py-4 mt-11 text-base font-bold bg-cyan-600 rounded-xl  max-md:px-5 max-md:mt-10">
         Je fais un don
-        </button>
+        </a>
         </div>
         </div>
         </div>

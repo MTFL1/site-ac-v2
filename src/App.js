@@ -11,10 +11,10 @@ import Error404 from './pages/Error404/Error404';
 
 import './App.css';
 import PageEvenement from './pages/PageEvenement/PageEvenement';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
-    <>
     <div>
     <Routes>
         <Route path="/" element={<Accueil />} />
@@ -26,8 +26,8 @@ function App() {
         <Route path="/contact" element={<Contact />} /> 
         <Route path="*" element={<Error404 />} />
     </Routes>
+    <Analytics/>
     </div>
-    </>
   );
 }
 
