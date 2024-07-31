@@ -12,6 +12,8 @@ import Error404 from './pages/Error404/Error404';
 import './App.css';
 import PageEvenement from './pages/PageEvenement/PageEvenement';
 import { Analytics } from "@vercel/analytics/react"
+import ScrollToTopButton from "./components/ScrollButton/ScrollButton";
+
 
 function App() {
   return (
@@ -27,6 +29,7 @@ function App() {
         <Route path="*" element={<Error404 />} />
     </Routes>
     <Analytics/>
+    <ScrollToTopButton/>
     </div>
   );
 }

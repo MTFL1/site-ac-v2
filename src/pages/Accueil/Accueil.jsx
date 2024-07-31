@@ -4,7 +4,6 @@ import BandeauDon from "../../components/BandeauDon"
 import QuiSommesNous from "./ui/QuiSommesNous"
 import QueFaisonsNous from "./ui/QueFaisonsNous"
 import ProchainEvent from "../../components/ProchainEvent"
-import ScrollToTopButton from "../../components/ScrollButton/ScrollButton";
 import DernierEvent from "../../components/DernierEvent";
 
 
@@ -15,7 +14,6 @@ function Accueil() {
         <Hero/>
         <QuiSommesNous/>
         <QueFaisonsNous/>
-        <ScrollToTopButton/>
         <ProchainEvent/>
         <DernierEvent/>
         <BandeauDon/>

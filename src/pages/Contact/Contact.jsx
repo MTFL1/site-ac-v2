@@ -4,6 +4,7 @@ import BrancheLogoFooter from "../../img/brancheLogoFooter.svg"
 
 
 
+
 function Contact  ()  {
   const ContactInfo = ({ label, value }) => (
     <div className="flex flex-col">
