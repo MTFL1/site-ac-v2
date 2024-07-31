@@ -39,7 +39,7 @@ return(
         </a>
         </div>
         <div className="flex-1 sm:hidden lg:block">
-          <img src={Flyer4} className="md:max-w-lg rounded-lg border-2 border-cyan-500 max-md:w-[93%] max-md:mx-auto" alt="" />
+          <img src={Flyer4} className="md:max-w-lg rounded-lg border-2 max-md:w-[93%] max-md:mx-auto" alt="" />
         </div>
       </div>
     </div>
