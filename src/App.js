@@ -6,6 +6,7 @@ import Evenements from './pages/Evenements/Evenements';
 import AntreConnaissance from './pages/AntreConnaissance/AntreConnaissance';
 import EntreConnaissance from './pages/EntreConnaissance/EntreConnaissance';
 import Contact from './pages/Contact/Contact';
+import MawlidAnNabi from './pages/Mawlid/Mawlid-An-Nabi';
 import Error404 from './pages/Error404/Error404';
 
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/antreConnaissance" element={<AntreConnaissance />} />
         <Route path="/entreConnaissance" element={<EntreConnaissance />} />
         <Route path="/pageEvenement" element={<PageEvenement />} />
+        <Route path="/mawlidAnNabi" element={<MawlidAnNabi />} />
         <Route path="/contact" element={<Contact />} /> 
         <Route path="*" element={<Error404 />} />
     </Routes>
