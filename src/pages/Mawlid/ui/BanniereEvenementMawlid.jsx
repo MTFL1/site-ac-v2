@@ -7,7 +7,7 @@ function BanniereEvenement()  {
     <section className="w-full relative justify-center items-center px-16 py-20 bg-gray-900 max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <div className="flex flex-col items-center text-white mx-auto max-md:mt-10 max-md:max-w-full">
         <h1 className="text-4xl font-bold text-center max-md:text-2xl max-md:leading-[54px]">
-          Mawlid An Nabi en présence de Sheikh Abdulaziz Al Amghari
+          Mawlid An Nabi ﷺ en présence de Sheikh Abdulaziz Al Amghari
         </h1>
         <div className="mt-10 space-y-4 flex flex-col items-center">
           <div className="flex items-center space-x-4">

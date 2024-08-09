@@ -1,7 +1,6 @@
 import React from "react";
 import Mawlid from "../../../img/FLYER.webp";
 import HelloAssoWidget from "./HelloAssoWidget";
-import GoogleFormWidget from "./GoogleForm";
 
 
 function DetailsEvenements() {
@@ -90,8 +89,6 @@ function DetailsEvenements() {
 
         {/* Premier paragraphe */}
         <div className="text-justify leading-7 mb-6 space-y-4">
-  <h2 className="text-xl font-bold mb-2">Mawlid An-Nabi ﷺ</h2>
-
   <p>
     Participer à la célébration de la naissance de notre noble prophète Muhammad ﷺ, en présence de Sheikh Abdulaziz Al Amghari.
   </p>
@@ -102,7 +99,12 @@ function DetailsEvenements() {
 
   <div>
     <h3 className="font-semibold mb-2">Au programme :</h3>
-    <p>Dars, dhikr, chants, stands librairie et boissons...</p>
+    <h4><strong>Vendredi 13 :</strong> Assise avec Sheikh Abdulaziz Al Amghari</h4>
+
+    <h4><strong>Samedi 14 :</strong> Mawlid An-Nabi, en présence de Sheikh Abdulaziz Al Amghari</h4>
+    <p>(Dars, dhikr, chants, stands librairie et boissons...)</p>
+    
+    <h4><strong>Dimanche 15 :</strong> Assise avec Sheikh Abdulaziz Al Amghari</h4>
   </div>
 
   <p>Au plaisir de se retrouver</p>
@@ -129,7 +131,6 @@ function DetailsEvenements() {
 
         {/* Deuxième paragraphe */}
        <HelloAssoWidget/>
-       <GoogleFormWidget/>
       </div>
     </section>
   );

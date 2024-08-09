@@ -2,8 +2,6 @@ import React from 'react';
 
 const HelloAssoWidget = () => {
   return (
-    <>
-      <h3 className="font-semibold">Étape 1 :</h3>
       <iframe
         id="haWidget"
         title="HelloAsso Event Widget"
@@ -11,12 +9,11 @@ const HelloAssoWidget = () => {
         src="https://www.helloasso.com/associations/l-antre-connaissance/evenements/rencontre-festive/widget"
         style={{
           width: "100%",
-          height: "1600px",
+          height: "2200px",
           border: "none",
           marginBottom: "0"  
         }}
       />
-    </>
   );
 };
 
