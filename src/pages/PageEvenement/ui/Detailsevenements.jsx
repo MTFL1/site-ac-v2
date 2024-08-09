@@ -100,9 +100,9 @@ function DetailsEvenements() {
         </p>
 
         {/* Bouton */}
-        <a href="#" className="px-6 py-3 text-center bg-cyan-600 text-white font-bold rounded hover:bg-cyan-700 transition duration-150">
+        <button  className="px-6 py-3 text-center bg-cyan-600 text-white font-bold rounded hover:bg-cyan-700 transition duration-150">
           Je m'inscris
-        </a>
+        </button>
       </div>
     </section>
   );

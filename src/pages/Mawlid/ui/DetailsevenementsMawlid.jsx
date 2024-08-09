@@ -1,6 +1,7 @@
 import React from "react";
-import Mawlid from "../../../img/MAWLID.png";
+import Mawlid from "../../../img/FLYER.webp";
 import HelloAssoWidget from "./HelloAssoWidget";
+import GoogleFormWidget from "./GoogleForm";
 
 
 function DetailsEvenements() {
@@ -128,6 +129,7 @@ function DetailsEvenements() {
 
         {/* Deuxième paragraphe */}
        <HelloAssoWidget/>
+       <GoogleFormWidget/>
       </div>
     </section>
   );

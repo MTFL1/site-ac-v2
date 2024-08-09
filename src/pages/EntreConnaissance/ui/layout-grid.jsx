@@ -2,15 +2,15 @@ import React from 'react';
 import Conf1 from '../../../img/conf1.webp';
 import Conf2 from '../../../img/conf2.webp';
 import Conf3 from '../../../img/conf3.webp';
+import Conf4 from '../../../img/conf4.webp';
 
 const LayoutGrid = () => {
   const cards = [
-    { id: 1, thumbnail: Conf1, colSpan: 'col-span-2', rowSpan: 'row-span-1' },
-    { id: 2, thumbnail: Conf2, colSpan: 'col-span-1', rowSpan: 'row-span-1' },
-    { id: 3, thumbnail: Conf3, colSpan: 'col-span-1', rowSpan: 'row-span-1' },
-    { id: 4, thumbnail: 'https://via.placeholder.com/600x150', colSpan: 'col-span-2', rowSpan: 'row-span-1' },
-    { id: 5, thumbnail: 'https://via.placeholder.com/300x300', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
-    { id: 6, thumbnail: 'https://via.placeholder.com/300x300', colSpan: 'col-span-1', rowSpan: 'row-span-1' },
+    { id: 1, thumbnail: Conf1, colSpan: 'md:col-span-2', rowSpan: 'row-span-1' },
+    { id: 2, thumbnail: Conf2, colSpan: 'md:col-span-1', rowSpan: 'row-span-1' },
+    { id: 3, thumbnail: Conf3, colSpan: 'md:col-span-1', rowSpan: 'row-span-1' },
+    { id: 4, thumbnail: Conf4, colSpan: 'md:col-span-1', rowSpan: 'row-span-1' },
+    
   ];
 
   return (
@@ -30,7 +30,7 @@ const LayoutGrid = () => {
       </div>
       
       <div className="relative flex items-center justify-center">
-        <div className="w-full h-full p-5 grid grid-cols-2 gap-4 max-w-7xl mx-auto grid-rows-auto">
+        <div className="w-full h-full p-5 grid grid-cols-1 md:grid-cols-2 gap-4 max-w-7xl mx-auto grid-rows-auto">
           {cards.map((card) => (
             <div 
               key={card.id} 

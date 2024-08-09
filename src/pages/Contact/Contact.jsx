@@ -6,17 +6,10 @@ import BrancheLogoFooter from "../../img/brancheLogoFooter.svg"
 
 
 function Contact  ()  {
-  const ContactInfo = ({ label, value }) => (
-    <div className="flex flex-col">
-      <div className="text-base leading-7">{value}</div>
-      {label && <div className="mt-14 text-xl font-bold leading-8 max-md:mt-10">{label}</div>}
-    </div>
-  );
 
   return (
     <>
     
-   
     <main className="relative flex flex-col md:flex-row justify-center items-center px-16 py-20 w-full bg-gray-900 max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <section className="flex flex-col w-[55%] max-md:w-full">
         <div className="flex flex-col text-white max-md:mt-10 max-md:max-w-full">
@@ -33,16 +26,11 @@ function Contact  ()  {
           <h2 className="text-2xl font-bold leading-10">Coordonées</h2>
           <hr className="shrink-0 mt-2 h-px border border-solid bg-neutral-200 border-neutral-200" />
           <div className=" gap-5 mt-5">
-            <ContactInfo value="+33 (0)6 41 06 62 83" label="" />
             <div className="flex-auto self-start text-base leading-7">
-            association.lantreconnaissance@gmail.com
+            acsecretariat.toulouse@gmail.com
             </div>
           </div>
-          <address className="mt-6 text-base leading-7 not-italic">
-            110 Rue Achille Viadieu,
-            <br />
-            31400 Toulouse
-          </address>
+          
         </div>
         <div className="flex flex-col self-stretch my-auto text-white max-md:mt-10">
           <h2 className="text-2xl font-bold leading-10">Suivez-nous :</h2>
