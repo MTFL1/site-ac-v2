@@ -101,10 +101,10 @@ function DetailsEvenements() {
     <h3 className="font-semibold mb-2">Au programme :</h3>
     <h4><strong>Vendredi 13 :</strong> 19h Assise avec Sheikh Abdulaziz Al Amghari</h4>
 
-    <h4><strong>Samedi 14 :</strong> 19h Mawlid An-Nabi, en présence de Sheikh Abdulaziz Al Amghari</h4>
+    <h4><strong>Samedi 14 :</strong> 16h Mawlid An-Nabi, en présence de Sheikh Abdulaziz Al Amghari</h4>
     <p>(Dars, dhikr, chants, stands librairie et boissons...)</p>
     
-    <h4><strong>Dimanche 15 :</strong> 19h Assise avec Sheikh Abdulaziz Al Amghari</h4>
+    <h4><strong>Dimanche 15 :</strong> 14h Assise avec Sheikh Abdulaziz Al Amghari</h4>
   </div>
 
   <p>Au plaisir de se retrouver</p>
