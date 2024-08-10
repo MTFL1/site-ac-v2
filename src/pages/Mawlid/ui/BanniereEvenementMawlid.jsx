@@ -22,7 +22,7 @@ function BanniereEvenement()  {
             <i class="fa-brands fa-whatsapp text-2xl"></i>
             <p className="text-base leading-7 font-bold"> WhatsApp +33698848718 / +33627235976</p>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-1">
             <i class="fa-solid fa-envelope text-2xl"></i>
             <p className="text-base leading-7 font-bold">ACSECRETARIAT.TOULOUSE@GMAIL.COM</p>
           </div>
