@@ -12,12 +12,20 @@ function BanniereEvenement()  {
         <div className="mt-10 space-y-4 flex flex-col items-center">
           <div className="flex items-center space-x-4">
           <i className="fa-solid fa-calendar text-2xl"></i>            
-           <p className="text-base leading-7">13 au 15 Septembre 2024</p>
+           <p className="text-base leading-7 font-bold">13 au 15 Septembre 2024</p>
           </div>
             <a className="flex items-center space-x-4 bg-cyan-600 px-4 py-1 rounded-lg hover:bg-cyan-700" href="https://www.google.com/maps/dir//Salle+de+r%C3%A9ception+%C3%A0+Toulouse+Bellagio,+77+Imp.+de+Lespinasse,+31140+Aucamville/@43.6745151,1.4104733,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x12aea5448ca44e7d:0x79b09d76468c8c08!2m2!1d1.4130536!2d43.6745112!3e0?entry=ttu">
             <i className="fa-solid fa-location-dot text-2xl"></i> 
             <p className="text-base leading-7 ">Salle Bellagio, Toulouse</p>
             </a>
+            <div className="flex items-center space-x-4">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            <p className="text-base leading-7 font-bold"> WhatsApp +33698848718 / +33627235976</p>
+          </div>
+          <div className="flex items-center space-x-4">
+            <i class="fa-solid fa-envelope text-2xl"></i>
+            <p className="text-base leading-7 font-bold">ACSECRETARIAT.TOULOUSE@GMAIL.COM</p>
+          </div>
         </div>
         {/**
         <div className="mt-10">
