@@ -122,7 +122,7 @@ function DetailsEvenements() {
     **Attention au moment du paiement, des frais HelloAsso se rajoutent automatiquement, vous pouvez les enlever en appuyant sur modifier et sélectionner "je ne souhaite pas faire de don à HelloAsso".**
   </p>
   <p className="font-bold text-green-700 italic">
-    **Si vous souhaitez faire un don à l'association Antre connaissance, une autre option est disponible au moment de la sélection du billet.**
+    **Si vous souhaitez faire un don à l'association Antre-connaissance, une autre option est disponible au moment de la sélection du billet.**
   </p>
 </div>
 
