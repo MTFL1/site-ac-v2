@@ -17,7 +17,7 @@ const LayoutGrid = () => {
     <section className='relative'>
       <div className="flex items-center space-x-3 top-0 left-0 mt-10 ml-5 md:ml-20">
         <span className="block w-10 h-1 bg-cyan-600"></span>
-        <h3 className="text-grey-600 font-bold">GALLERIE</h3>
+        <h3 className="text-grey-600 font-bold">GALERIE</h3>
       </div>
       
       <div className="petal absolute inset-0">

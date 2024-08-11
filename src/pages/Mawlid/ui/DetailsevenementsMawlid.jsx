@@ -94,7 +94,7 @@ function DetailsEvenements() {
   </p>
 
   <p>
-    L'association Antre-connaissance à le plaisir de vous convier à la salle de réception Bellagio, à 5 minutes de Toulouse.
+    L'association Antre-connaissance a le plaisir de vous convier à la salle de réception Bellagio, à 5 minutes de Toulouse.
   </p>
 
   <div>
@@ -115,14 +115,14 @@ function DetailsEvenements() {
   </p>
 
   <p className="font-bold italic">
-    **Places limitées, seul les enfants à partir de 10 ans sont autorisés.**
+    **Places limitées, seuls les enfants à partir de 10 ans sont autorisés.**
   </p>
 
   <p className="font-bold text-red-600 italic">
-    **Attention au moment du paiement des frais HelloAsso se rajoute automatiquement, vous pouvez les enlever en appuyant sur modifier et sélectionner je ne souhaite pas faire de don à HelloAsso.**
+    **Attention au moment du paiement, des frais HelloAsso se rajoutent automatiquement, vous pouvez les enlever en appuyant sur modifier et sélectionner "je ne souhaite pas faire de don à HelloAsso".**
   </p>
   <p className="font-bold text-green-700 italic">
-    **Si vous souhaitez faire un don à l'association Antre conaissance, une autre option est disponible au moment de la sélection du billet.**
+    **Si vous souhaitez faire un don à l'association Antre connaissance, une autre option est disponible au moment de la sélection du billet.**
   </p>
 </div>
 
