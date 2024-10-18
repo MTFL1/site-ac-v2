@@ -87,7 +87,8 @@ function DetailsEvenements() {
 
         {/* Premier paragraphe */}
         <p className="text-justify leading-7 mb-6">
-        La vie change de nature dès lors qu' elle se fait mortelle... Dès lors, il faut essayer de penser ce que la mort fait à la vie, ce en quoi elle en altère le sens. En outre, c est la nature de la mort (terme absolu? Changement d'état?) qu' il nous faudra interroger pour comprendre le sens de la vie mortelle... Ce sont ces questions que l'on tentera d 'explorer ensemble.        </p>
+        La vie change de nature dès lors qu' elle se fait mortelle... Dès lors, il faut essayer de penser ce que la mort fait à la vie, ce en quoi elle en altère le sens. En outre, c est la nature de la mort (terme absolu? Changement d'état?) qu' il nous faudra interroger pour comprendre le sens de la vie mortelle... Ce sont ces questions que l'on tentera d 'explorer ensemble.
+        </p>
 
         {/* Image */}
         <img loading="lazy" src={Flyer4} alt="Flyer" className="object-contain rounded mb-6 w-full " />
