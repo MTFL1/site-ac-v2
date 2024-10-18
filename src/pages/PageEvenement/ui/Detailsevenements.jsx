@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer4 from "../../../img/Flyer4.webp";
+import Flyer4 from "../../../img/AlaUne.webp";
 
 function DetailsEvenements() {
   return (
@@ -87,22 +87,20 @@ function DetailsEvenements() {
 
         {/* Premier paragraphe */}
         <p className="text-justify leading-7 mb-6">
-          Après avoir introduit la série de propos que nous débutons nous nous sommes demandés ce que signifiait, dans les discours ordinaires, ce que nous désignons par une vie ou une activité qui ont du sens. Nous aidant pour cela des analyses développées par Susan Wolf dans son petit livre Le sens dans la vie nous sommes parties de réponses ordinaires à cette question.
-          La première réponse envisagée a été la suivante : “Une vie a du sens lorsque nous avons la chance de faire ce que l’on aime.” Cette réponse nous a paru pertinente puisqu’elle garantit l’épanouissement de l’individu, dimension qui semble essentielle à une vie dotée de sens. Elle nous est cependant apparue insuffisante dans la mesure elle manque de valeur objective. On pourrait très bien imaginer un individu qui s’épanouit en causant du tort à son entourage ou en s’adonnant à des tâches futiles ; il semblerait alors que sa vie, bien qu’épanouie, ne puisse être qualifiée de douée de sens.
-        </p>
+        La vie change de nature dès lors qu' elle se fait mortelle... Dès lors, il faut essayer de penser ce que la mort fait à la vie, ce en quoi elle en altère le sens. En outre, c est la nature de la mort (terme absolu? Changement d'état?) qu' il nous faudra interroger pour comprendre le sens de la vie mortelle... Ce sont ces questions que l'on tentera d 'explorer ensemble.        </p>
 
         {/* Image */}
         <img loading="lazy" src={Flyer4} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
-        {/* Deuxième paragraphe */}
+        {/* Deuxième paragraphe 
         <p className="text-justify leading-7 mb-6">
           Une autre réponse courante à la question a alors été envisagée pour compléter la première : “Une vie a du sens lorsque nous oeuvrons à quelque chose qui a une valeur indépendante de nous-même, c’est-à-dire objective. Cette dimension garantit alors que l'activité puisse être regardée comme estimable, comme douée en elle-même de valeur, ce qui semble essentiel à une vie douée de sens. C’est donc la réunion de ces deux réponses qui nous est apparue constituer une réponse satisfaisante à notre question : une vie a du sens lorsqu’une personne aime ce qu’elle fait et que ce qu’elle aime est digne de l’être.
-        </p>
+        </p>*/}
 
-        {/* Bouton */}
+        {/* Bouton 
         <button  className="px-6 py-3 text-center bg-cyan-600 text-white font-bold rounded hover:bg-cyan-700 transition duration-150">
           Je m'inscris
-        </button>
+        </button>*/}
       </div>
     </section>
   );

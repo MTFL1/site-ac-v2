@@ -19,15 +19,15 @@ function BanniereEvenement()  {
         {/* Deuxième élément horizontal */}
         <div className="flex items-center space-x-4">
           <i className="fa-solid fa-location-dot text-2xl"></i> 
-          <p className="text-base leading-7"> 20 Juillet 2024 à 15h </p>
+          <p className="text-base leading-7"> 26 Octobre 2024 à 17h30 </p>
         </div>
       </div>
-      {/* Bouton */}
+      {/* Bouton 
       <div className="mt-10">
         <button className="px-6 py-3 bg-cyan-600 text-white font-bold rounded hover:bg-cyan-700 transition duration-150">
           Je m'inscris
         </button>
-      </div>
+      </div>*/}
     </div>
     {/* Branches décoratives */}
     <div className="absolute top-0 left-0 transform rotate-180">

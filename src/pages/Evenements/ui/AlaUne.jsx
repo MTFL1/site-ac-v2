@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer4 from "../../../img/Flyer4.webp"
+import Flyer4 from "../../../img/AlaUne.webp"
 import "./AlaUne.css"
 
 
