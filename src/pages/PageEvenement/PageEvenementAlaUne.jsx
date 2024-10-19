@@ -5,14 +5,14 @@ import FormWidget from "./ui/FormWidget";
 
 
 
-function PageEvenement() {
+function PageEvenementAlaUne() {
   return (
     <main>
     <BanniereEvenement/>
     <DetailsEvenements/>
-<FormWidget/>
+    <FormWidget/>
     </main>
   );
 }
 
-export default PageEvenement;
+export default PageEvenementAlaUne;

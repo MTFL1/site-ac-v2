@@ -59,7 +59,7 @@ function Navbar() {
                         }
                         {/* Ajoute le bouton "Don" dans le menu mobile et tablette */}
                         <li className="text-gray-900 hover:text-cyan-600 lg:hidden">
-                            <a href="https://www.helloasso.com/associations/l-antre-connaissance" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
+                            <a href="https://www.helloasso.com/associations/l-antre-connaissance/formulaires/6" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
                                 Don
                             </a>
                         </li>
@@ -67,7 +67,7 @@ function Navbar() {
                 </div>
                 {/* Bouton "Don" visible uniquement en mode bureau */}
                 <div className="hidden lg:inline-block">
-                    <a href="https://www.helloasso.com/associations/l-antre-connaissance" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
+                    <a href="https://www.helloasso.com/associations/l-antre-connaissance/formulaires/6" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
                         Don
                     </a>
                 </div>
