@@ -12,6 +12,7 @@ import Error404 from './pages/Error404/Error404';
 
 import './App.css';
 import PageEvenementAlaUne from './pages/PageEvenement/PageEvenementAlaUne';
+import PageEvenementIntroductionAlaMeditationSoufie from './pages/PageEvenement/PageEvenementIntroductionAlaMeditationSoufie/PageEvenementIntroductionAlaMeditationSoufie';
 import { Analytics } from "@vercel/analytics/react"
 import ScrollToTopButton from "./components/ScrollButton/ScrollButton";
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/antreConnaissance" element={<AntreConnaissance />} />
         <Route path="/entreConnaissance" element={<EntreConnaissance />} />
         <Route path="/pageEvenementAlaUne" element={<PageEvenementAlaUne />} />
+        <Route path='/pageEvenementIntroductionAlaMeditationSoufie' element={<PageEvenementIntroductionAlaMeditationSoufie />} />
         <Route path="/mawlidAnNabi" element={<MawlidAnNabi />} />
         <Route path="/contact" element={<Contact />} /> 
         <Route path="*" element={<Error404 />} />

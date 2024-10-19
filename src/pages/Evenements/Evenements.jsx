@@ -19,7 +19,6 @@ function Evenements() {
 <MailerLiteScript/>
 <DernierEvent/>
 <BandeauDon/>
-
 </main>
 
   );
