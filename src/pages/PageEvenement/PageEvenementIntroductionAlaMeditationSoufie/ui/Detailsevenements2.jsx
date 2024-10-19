@@ -83,7 +83,7 @@ function DetailsEvenements2() {
 
       <div className="relative flex flex-col w-full mx-auto text-gray-900 py-10 px-5 md:w-[60%]">
         {/* Titre */}
-        <h1 className="text-4xl font-bold mb-6">Qu’est-ce qu’une vie qui a du sens ?</h1>
+        <h1 className="text-4xl font-bold mb-6">Introduction à la méditation soufie</h1>
 
         {/* Premier paragraphe */}
         <p className="text-justify leading-7 mb-6">
