@@ -44,7 +44,7 @@ function ProchainEvent() {
       </div>
       <div className="relative z-10 flex items-center w-full space-x-3 max-w-screen-xl mx-auto">
         <span className="block w-10 h-1 bg-cyan-600"></span>
-        <h3 className="text-gray-900 font-bold">NOS PROCHAINS ÉVÈNEMENTS</h3>
+        <h3 className="text-gray-900 font-bold">NOS PROCHAINS ÉVÈNEMENTS </h3>
       </div>
       <div className="relative z-10 mt-6 w-full max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row md:gap-4">
