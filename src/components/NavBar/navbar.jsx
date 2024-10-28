@@ -6,6 +6,7 @@ import './navbar.css';
 function Navbar() {
     const [state, setState] = useState(false);
 
+    // Liste de navigation
     const navigation = [
         { title: "Accueil", path: "/" },
         { title: "À propos", path: "/a propos" },
@@ -14,6 +15,11 @@ function Navbar() {
         { title: "Entre-connaissance", path: "/entreConnaissance" },
         { title: "Contact", path: "/contact" }
     ];
+
+    // Fonction pour fermer la navigation après un clic sur un lien
+    const handleLinkClick = () => {
+        setState(false);
+    };
 
     return (
         <nav className="bg-white w-full lg:static relative">
@@ -46,20 +52,29 @@ function Navbar() {
                         </button>
                     </div>
                 </div>
-                <div className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${state ? 'block' : 'hidden'}`}>
-                    <ul className="justify-center items-center space-y-8 lg:flex lg:space-x-6 lg:space-y-0">
+                <div className={`flex-1 justify-self-start pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${state ? 'block' : 'hidden'}`}>
+                    <ul className="space-y-8 lg:flex lg:space-x-6 lg:space-y-0 lg:justify-center lg:items-center">
                         {
                             navigation.map((item, idx) => (
                                 <li key={idx} className="text-gray-900 hover:text-cyan-600">
-                                    <NavLink to={item.path} activeclassname="active" exact="true">
+                                    <NavLink
+                                        to={item.path}
+                                        activeclassname="active"
+                                        exact="true"
+                                        onClick={handleLinkClick} // Appelle handleLinkClick
+                                    >
                                         {item.title}
                                     </NavLink>
                                 </li>
                             ))
                         }
-                        {/* Ajoute le bouton "Don" dans le menu mobile et tablette */}
+                        {/* Bouton "Don" visible en mode mobile/tablette */}
                         <li className="text-gray-900 hover:text-cyan-600 lg:hidden">
-                            <a href="https://www.helloasso.com/associations/l-antre-connaissance/formulaires/6" className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md">
+                            <a
+                                href="https://www.helloasso.com/associations/l-antre-connaissance/formulaires/6"
+                                className="py-3 px-8 text-white bg-gray-900 hover:bg-cyan-600 rounded-md shadow-md"
+                                onClick={handleLinkClick} // Assure la fermeture pour ce lien aussi
+                            >
                                 Don
                             </a>
                         </li>
