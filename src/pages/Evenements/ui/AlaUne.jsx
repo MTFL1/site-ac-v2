@@ -39,7 +39,7 @@ return(
         </a>
         </div>
         <div className="flex-1 sm:hidden lg:block">
-        <a href="/pageEvenementAlaUne">
+        <a href="/pageEvenementIntroductionAlaMeditationSoufie">
           <img src={Flyer4} className="md:max-w-lg rounded-lg border-2 max-md:w-[93%] max-md:mx-auto" alt="" />
         </a>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 function ProchainEvent() {
   const events = [
-    { day: "26", month: "Oct", title: "La vie à t'elle un sens ? Partie 3", href: "/pageEvenementAlaUne", isLarge: true },
+    { day: "26", month: "Oct", title: "La vie a-t-elle un sens ? Partie 3", href: "/pageEvenementAlaUne", isLarge: true },
     { day: "2", month: "Nov", title: "Introduction à la méditation soufie", href: "/pageEvenementIntroductionAlaMeditationSoufie", isLarge: true }
   ];
 
