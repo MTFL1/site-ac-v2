@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer4 from "../../../img/AlaUne.webp";
+import Flyer4 from "../../../img/16:11.webp";
 
 function DetailsEvenements() {
   return (
@@ -82,13 +82,12 @@ function DetailsEvenements() {
       </div>
 
       <div className="relative flex flex-col w-full mx-auto text-gray-900 py-10 px-5 md:w-[60%]">
-        {/* Titre */}
-        <h1 className="text-4xl font-bold mb-6">Qu’est-ce qu’une vie qui a du sens ?</h1>
+        {/* Titre 
+        <h1 className="text-4xl font-bold mb-6">Le soufisme : une voie d'introspection</h1>*/}
 
-        {/* Premier paragraphe */}
+        {/* Premier paragraphe 
         <p className="text-justify leading-7 mb-6">
-        La vie change de nature dès lors qu' elle se fait mortelle... Dès lors, il faut essayer de penser ce que la mort fait à la vie, ce en quoi elle en altère le sens. En outre, c est la nature de la mort (terme absolu? Changement d'état?) qu' il nous faudra interroger pour comprendre le sens de la vie mortelle... Ce sont ces questions que l'on tentera d 'explorer ensemble.
-        </p>
+        </p>*/}
 
         {/* Image */}
         <img loading="lazy" src={Flyer4} alt="Flyer" className="object-contain rounded mb-6 w-full " />
