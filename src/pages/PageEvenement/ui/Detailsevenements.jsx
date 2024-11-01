@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer4 from "../../../img/16:11.webp";
+import Flyer4 from "../../../img/1611.webp";
 
 function DetailsEvenements() {
   return (

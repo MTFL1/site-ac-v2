@@ -19,7 +19,7 @@ function BanniereEvenement()  {
         {/* Deuxième élément horizontal */}
         <div className="flex items-center space-x-4">
           <i className="fa-solid fa-location-dot text-2xl"></i> 
-          <p className="text-base leading-7"> 16 Novembre 2024 à 17h30 </p>
+          <p className="text-base leading-7"> 16 Novembre 2024 à 18h30 </p>
         </div>
       </div>
       {/* Bouton 
