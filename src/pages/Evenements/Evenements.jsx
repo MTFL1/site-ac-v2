@@ -9,7 +9,6 @@ import MailerLiteScript from "./ui/MailerliteScript";
 
 
 
-
 function Evenements() {
   return (
 
