@@ -14,8 +14,8 @@ function Accueil() {
         <Hero/>
         <QuiSommesNous/>
         <QueFaisonsNous/>
-        <ProchainEvent/>
         <DernierEvent/>
+        <ProchainEvent/>
         <BandeauDon/>
       </main>
     </div>

@@ -14,9 +14,9 @@ function Evenements() {
 
 <main>
 <AlaUne/>
+<DernierEvent/>
 <ProchainEvent/>
 <MailerLiteScript/>
-<DernierEvent/>
 <BandeauDon/>
 </main>
 
