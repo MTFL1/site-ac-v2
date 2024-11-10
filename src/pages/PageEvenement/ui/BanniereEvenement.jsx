@@ -14,7 +14,7 @@ function BanniereEvenement()  {
         {/* Premier élément horizontal */}
         <div className="flex items-center space-x-4">
           <i className="fa-solid fa-calendar text-2xl"></i> 
-          <p className="text-base leading-7">Espace Allegria, Toulouse </p>
+          <p className="text-base leading-7">Studio Peacock, Toulouse </p>
         </div>
         {/* Deuxième élément horizontal */}
         <div className="flex items-center space-x-4">
