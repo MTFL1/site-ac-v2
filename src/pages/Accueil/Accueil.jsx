@@ -3,8 +3,7 @@ import Hero from './ui/Hero';
 import BandeauDon from "../../components/BandeauDon"
 import QuiSommesNous from "./ui/QuiSommesNous"
 import QueFaisonsNous from "./ui/QueFaisonsNous"
-import ProchainEvent from "../../components/ProchainEvent"
-import DernierEvent from "../../components/DernierEvent";
+import DernierEvent from "../Event/DernierEvent";
 
 
 function Accueil() {
@@ -15,7 +14,6 @@ function Accueil() {
         <QuiSommesNous/>
         <QueFaisonsNous/>
         <DernierEvent/>
-        <ProchainEvent/>
         <BandeauDon/>
       </main>
     </div>

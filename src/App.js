@@ -2,12 +2,12 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Accueil from './pages/Accueil/Accueil';
 import Apropos from './pages/A-propos/A-propos';
-import Evenements from './pages/Evenements/Evenements';
 import AntreConnaissance from './pages/AntreConnaissance/AntreConnaissance';
 import EntreConnaissance from './pages/EntreConnaissance/EntreConnaissance';
 import Contact from './pages/Contact/Contact';
 import Error404 from './pages/Error404/Error404';
-
+import Evenements from './pages/Event/Event';
+//import Evenements from './pages/Evenements/Evenements';
 //import MawlidAnNabi from './pages/Mawlid/Mawlid-An-Nabi';
 
 
@@ -24,7 +24,7 @@ function App() {
     <Routes>
         <Route path="/" element={<Accueil />} />
         <Route path="/a propos" element={<Apropos />} />
-        <Route path="evenements" element={<Evenements />} />
+        <Route path="/event" element={<Evenements />} />
         <Route path="/antreConnaissance" element={<AntreConnaissance />} />
         <Route path="/entreConnaissance" element={<EntreConnaissance />} />
         <Route path="/pageEvenementAlaUne" element={<PageEvenementAlaUne />} />

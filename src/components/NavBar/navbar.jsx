@@ -10,7 +10,7 @@ function Navbar() {
     const navigation = [
         { title: "Accueil", path: "/" },
         { title: "À propos", path: "/a propos" },
-        { title: "Évènements", path: "/evenements" },
+        { title: "Évènements", path: "/event" },
         { title: "Antre-connaissance", path: "/antreConnaissance" },
         { title: "Entre-connaissance", path: "/entreConnaissance" },
         { title: "Contact", path: "/contact" }
