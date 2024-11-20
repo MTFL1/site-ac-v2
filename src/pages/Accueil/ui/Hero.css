@@ -20,16 +20,20 @@
   position: absolute;
   height: 100%;
   width: 25%;
+  opacity: 0;
+  animation: slideIn 2s ease-in-out forwards;
 }
 
 .section-branche:first-child {
   left: 0;
   top: 0;
+  animation-name: slideInLeft;
 }
 
 .section-branche:last-child {
   right: 0;
   bottom: 0;
+  animation-name: slideInRight;
 }
 
 .b-1 {
@@ -40,71 +44,115 @@
   width: 250px;
 }
 
+.logo {
+  opacity: 0;
+  animation: fadeIn 4s ease-in-out forwards;
+}
+
+.icon-reseaux {
+  opacity: 0;
+  animation: fadeIn 6s ease-in-out forwards;
+}
+
+
+/* Keyframes for slide-in animations */
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Media Queries */
 @media (max-width: 1024px) {
   .section-branche {
-      width: 30%;
+    width: 30%;
   }
 
   .b-1 {
-      width: 100px;
+    width: 100px;
   }
 
   .b-2 {
-      width: 200px;
+    width: 200px;
   }
 }
 
 @media (max-width: 767.98px) {
   .WelcomeBanner {
-      height: 100vh;
+    height: 100vh;
   }
 
   .welcome-text {
-      font-size: 20px;
+    font-size: 20px;
   }
 
   .section-hero {
-      height: auto;
+    height: auto;
   }
 
   .section-branche {
-      height: 25vh;
-      width: 50%;
+    height: 25vh;
+    width: 50%;
   }
 
   .b-1 {
-      width: 70px;
+    width: 70px;
   }
 
   .b-2 {
-      width: 130px;
+    width: 130px;
   }
 }
 
 @media (max-width: 376px) {
   .welcome-text {
-      font-size: 16px;
+    font-size: 16px;
   }
 
   .WelcomeBanner {
-      margin-top: 10%;
-      height: 50vh;
+    margin-top: 10%;
+    height: 50vh;
   }
 
   .section-hero {
-      height: auto;
+    height: auto;
   }
 
   .section-branche {
-      height: 25vh;
-      width: 50%;
+    height: 25vh;
+    width: 50%;
   }
 
   .b-1 {
-      width: 50px;
+    width: 50px;
   }
 
   .b-2 {
-      width: 100px;
+    width: 100px;
   }
 }
