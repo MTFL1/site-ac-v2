@@ -1,45 +1,44 @@
 .infinite-scroll-wrapper {
-    width: 100%;
-    overflow: hidden;
+  width: 100%;
+  overflow: hidden;
+}
+
+.infinite-scroll {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  animation: scroll 30s linear infinite; /* L'animation se termine plus rapidement sur mobile */
+}
+
+.infinite-scroll-item {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+/* Animation du défilement horizontal */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
   }
-  
+  100% {
+    transform: translateX(-100%); /* Déplace tout l'ensemble des éléments */
+  }
+}
+
+/* Effet sur survol */
+.infinite-scroll-wrapper:hover .infinite-scroll {
+  animation-play-state: paused;
+}
+
+/* Media Queries - Accélérer l'animation sur mobile */
+@media (max-width: 640px) {
   .infinite-scroll {
-    display: flex;
-    animation: scroll 30s linear infinite;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+    animation: scroll 25s linear infinite; /* Accélère le défilement pour les petits écrans */
   }
-  
+
   .infinite-scroll-item {
-    flex: 0 0 auto;
-    margin-right: 20px;
+    flex: 0 0 75%; /* Un seul flyer sur mobile */
+    margin-right: 0; /* Pas d'espace entre les éléments sur mobile */
   }
-  
-  /* Animation du défilement horizontal */
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  
-  /* Effet sur survol */
-  .infinite-scroll-wrapper:hover .infinite-scroll {
-    animation-play-state: paused;
-  }
-  
-  /* Media Queries - Ajuster pour les écrans mobiles */
-  @media (max-width: 640px) {
-    .infinite-scroll {
-      animation: scroll 15s linear infinite; /* Animation plus rapide pour mobile */
-    }
-  
-    .infinite-scroll-item {
-      flex: 0 0 100%; /* Un seul flyer sur mobile */
-      margin-right: 0; /* Pas d'espace entre les éléments sur mobile */
-    }
-  }
-  
+}
