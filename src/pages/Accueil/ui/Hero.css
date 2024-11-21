@@ -20,20 +20,16 @@
   position: absolute;
   height: 100%;
   width: 25%;
-  opacity: 0;
-  animation: slideIn 2s ease-in-out forwards;
 }
 
 .section-branche:first-child {
   left: 0;
   top: 0;
-  animation-name: slideInLeft;
 }
 
 .section-branche:last-child {
   right: 0;
   bottom: 0;
-  animation-name: slideInRight;
 }
 
 .b-1 {
@@ -56,27 +52,7 @@
 
 
 /* Keyframes for slide-in animations */
-@keyframes slideInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
-@keyframes slideInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
 @keyframes fadeIn {
   0% {
