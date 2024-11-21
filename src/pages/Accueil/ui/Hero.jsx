@@ -1,5 +1,5 @@
 import React from "react";
-import BrancheLogoFooter from "../../../img/brancheLogoFooter.svg";
+import BrancheLogoFooter from "../../../img/brancheLogoFooter copy.svg";
 import logo from "../../../img/g16.svg";
 import "../ui/Hero.css";
 
