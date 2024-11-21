@@ -7,6 +7,9 @@ function QueFaisonsNous() {
   const [ref, visible] = useOnScreen({
     threshold: 0.1,
   });
+  const [refText, visibleText] = useOnScreen({ threshold: 0.1 });
+const [refImg, visibleImg] = useOnScreen({ threshold: 0.1 });
+
 
   const features = [
     {
@@ -50,10 +53,10 @@ function QueFaisonsNous() {
       </div>
       </div>
       <div className="max-w-screen-xl mx-auto px-4 text-white gap-16 justify-between md:px-8 lg:flex relative z-10">
-        <div
-          ref={ref}
-          className={`fade-in-text ${visible ? 'visible' : ''}`}
-        >
+          <div
+      ref={refText}
+      className={`fade-in-text ${visibleText ? 'visible' : ''}`}
+    >
           <div className="max-w-xl space-y-3">
             <div className="flex items-center space-x-3">
               <span className="block w-10 h-1 bg-cyan-600"></span>
@@ -85,9 +88,9 @@ function QueFaisonsNous() {
         </div>
         <div className="mt-12 lg:mt-0">
         <div
-          ref={ref}
-          className={`fade-in-img ${visible ? 'visible' : ''}`}
-        >
+  ref={refImg}
+  className={`fade-in-img ${visibleImg ? 'visible' : ''}`}
+>
           <img src={QFN} alt="" className="w-full shadow-lg rounded-lg" />
         </div>
         </div>
