@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer4 from "../../../img/Art-spiritualite.webp";
+import Flyer5 from "../../../img/Art-spiritualite.webp";
 
 function DetailsEvenements() {
   return (
@@ -94,7 +94,7 @@ Un proverbe japonais nous dit : « Quand brille la lune, le plus malheureux n'
         </p>
 
         {/* Image */}
-        <img loading="lazy" src={Flyer4} alt="Flyer" className="object-contain rounded mb-6 w-full " />
+        <img loading="lazy" src={Flyer5} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
         {/* Deuxième paragraphe 
         <p className="text-justify leading-7 mb-6">
