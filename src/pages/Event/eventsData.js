@@ -12,7 +12,7 @@ const eventsData = [
       title: "Événement 1",
       img: Flyer4,
       date: "2024-11-16",
-      href: "",
+      href: "/",
     },
     {
       id: 2,
