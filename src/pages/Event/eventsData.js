@@ -2,7 +2,7 @@ import Flyer1 from "../../img/Flyer1.webp"
 import Flyer2 from "../../img/Flyer2.webp"
 import Flyer3 from "../../img/Flyer3.webp"
 import Flyer4 from "../../img/1611.webp"
-import Flyer5 from "../../img/Art-_-spiritualité.webp"
+import Flyer5 from "../../img/Art-spiritualité.webp"
 
 
 
