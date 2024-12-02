@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer4 from "../../../img/Art-_-spiritualité.webp";
+import Flyer4 from "../../../img/Art-spiritualite.webp";
 
 function DetailsEvenements() {
   return (
