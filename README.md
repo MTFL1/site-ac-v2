@@ -1,70 +1,84 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Nom du Projet**  
 
-## Available Scripts
+**Association L'antre de la connaissance**
+Application React construite avec Tailwind CSS pour offrir une expérience utilisateur moderne et performante.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## **Aperçu**  
+Ce projet est une application monopage (SPA) développée pour une association. L'objectif est de fournir une interface fluide et intuitive permettant de gérer efficacement les services et les interactions de l'association avec ses membres et son public.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Fonctionnalités principales**  
 
-### `npm test`
+- **Interface moderne et responsive** grâce à Tailwind CSS.  
+- **Navigation fluide** sans rechargement de page (SPA).  
+- **Performances optimisées** pour une meilleure expérience utilisateur.  
+- Structure modulaire facilitant l'ajout de nouvelles fonctionnalités.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## **Technologies utilisées**  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React.js** : pour la création de l'interface utilisateur.  
+- **Tailwind CSS** : pour un design rapide et flexible.  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Prérequis**  
 
-### `npm run eject`
+- Node.js version >= 16  
+- npm ou yarn installé  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## **Installation et lancement**  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. **Cloner le dépôt** :  
+   ```bash
+   git clone https://github.com/MTFL1/site-ac-v2.git
+   cd nom-du-repo
+   ```  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. **Installer les dépendances** :  
+   ```bash
+   npm install
+   ```  
 
-## Learn More
+3. **Lancer le projet en mode développement** :  
+   ```bash
+   npm run dev
+   ```  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. **Compiler pour la production** :  
+   ```bash
+   npm run build
+   ```  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. **Servir la version de production (optionnel)** :  
+   ```bash
+   npm run preview
+   ```  
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## **Arborescence du projet**  
 
-### Analyzing the Bundle Size
+```
+src/
+├── components/    # Composants réutilisables
+├── pages/         # Pages principales de l'application
+├── styles/        # Fichiers Tailwind personnalisés
+├── hooks/         # Hooks personnalisés
+├── utils/         # Fonctions utilitaires
+└── assets/        # Images et ressources statiques
+```  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## **Contribuer**  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Les contributions sont les bienvenues ! Si vous souhaitez signaler un problème ou soumettre une amélioration, veuillez créer une issue ou une pull request.  
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
