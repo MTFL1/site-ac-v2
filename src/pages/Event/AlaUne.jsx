@@ -31,7 +31,6 @@ function AlaUne() {
             <p className="mt-3 text-gray-600 text-xl">
           Ne manquez pas cette opportunité d'explorer ensemble des perspectives enrichissantes et de participer à une discussion significative sur l'existence de Dieu. Nous avons hâte de vous voir nombreux à cet événement !
           </p>
-            <p className="mt-3 text-gray-600 text-xl">{highlightEvent.title}</p>
             <a
               href={highlightEvent.href}
               className="inline-flex gap-x-1 py-4 items-center text-cyan-600 hover:text-indigo-500 duration-150 font-medium"
