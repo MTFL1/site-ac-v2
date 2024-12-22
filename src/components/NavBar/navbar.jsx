@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logoNav from '../../img/logoNav.webp';
+import logoNav from '../../img/DNoële.svg';
 import './navbar.css';
 
 function Navbar() {
@@ -24,12 +24,12 @@ function Navbar() {
     return (
         <nav className="bg-white w-full lg:static relative">
             <div className="items-center px-4 max-w-screen-xl mx-auto lg:flex lg:px-8">
-                <div className="flex items-center justify-between py-3 lg:py-1 lg:block">
+                <div className="flex items-center justify-between lg:block">
                     <NavLink to="/">
                         <img
                             src={logoNav}
-                            width={100}
-                            height={60}
+                            width={46}
+                            height={48}
                             alt="AC logo"
                             className="nav-logo"
                         />
