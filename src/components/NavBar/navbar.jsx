@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import logoNav from '../../img/DNoële.svg';
+import logoNav from '../../img/logo.svg';
 import './navbar.css';
 
 function Navbar() {
