@@ -4,7 +4,7 @@ const FormWidget2 = () => {
   return (
       <iframe
       title="Google Form"
-      src="https://docs.google.com/forms/d/e/1FAIpQLSd7FBFMuwf-15FerP_BxCJeEg5Zp_XCRjjelI0MFsVtUmwy2w/viewform?embedded=true" 
+      src="https://docs.google.com/forms/d/e/1FAIpQLSc6GEoUuKz7CJ0niRHCoxbhjSyuGKirHc6zy9i52UeeEzWXYA/viewform?embedded=true" 
       scrolling="none"
       style={{
         width: "100%",
@@ -16,3 +16,4 @@ const FormWidget2 = () => {
 };
 
 export default FormWidget2;
+
