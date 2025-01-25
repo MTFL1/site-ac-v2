@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer7 from "./../../../../img/Flyer7.png";
+import Flyer7 from "./../../../../img/Flyer7.webp";
 
 function DetailsEvenements() {
   return (
