@@ -8,18 +8,18 @@ function BanniereEvenement()  {
     <section className="w-full relative justify-center items-center px-16 py-20 bg-gray-900 max-md:px-5 max-md:mt-10 max-md:max-w-full">
     <div className="flex flex-col items-center justify-center text-white mx-auto max-md:mt-10 max-md:max-w-full">
       <h1 className="text-4xl font-bold max-md:text-2xl max-md:leading-[54px] text-center"> 
-      Art & spiritualité :  Poésie et nécessité intérieure
+      Musique et spiritualité :  de l’Orient à l’Occident 
       </h1>
       <div className="mt-10 space-y-4 flex flex-col items-center">
         {/* Premier élément horizontal */}
         <div className="flex items-center space-x-4">
           <i className="fa-solid fa-calendar text-2xl"></i> 
-          <p className="text-base leading-7">Club Alpin français, Toulouse </p>
+          <p className="text-base leading-7">Espace Allegria, Toulouse </p>
         </div>
         {/* Deuxième élément horizontal */}
         <div className="flex items-center space-x-4">
           <i className="fa-solid fa-location-dot text-2xl"></i> 
-          <p className="text-base leading-7"> 14 Décembre 2024 à 17h30 </p>
+          <p className="text-base leading-7"> 01 Mars 2025 à 17h30 </p>
         </div>
       </div>
       {/* Bouton 

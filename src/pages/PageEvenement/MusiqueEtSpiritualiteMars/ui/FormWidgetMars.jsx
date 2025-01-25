@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FormWidget = () => {
+const FormWidget2 = () => {
   return (
       <iframe
       title="Google Form"
@@ -15,4 +15,4 @@ const FormWidget = () => {
   );
 };
 
-export default FormWidget;
+export default FormWidget2;

@@ -7,6 +7,7 @@ import EntreConnaissance from './pages/EntreConnaissance/EntreConnaissance';
 import Contact from './pages/Contact/Contact';
 import Error404 from './pages/Error404/Error404';
 import Evenements from './pages/Event/Event';
+import MusiqueEtSpiritualiteMars from './pages/PageEvenement/MusiqueEtSpiritualiteMars/ui/MusiqueEtSpiritualiteMars';
 //import Evenements from './pages/Evenements/Evenements';
 //import MawlidAnNabi from './pages/Mawlid/Mawlid-An-Nabi';
 
@@ -29,6 +30,7 @@ function App() {
         <Route path="/entreConnaissance" element={<EntreConnaissance />} />
         <Route path="/pageEvenementAlaUne" element={<PageEvenementAlaUne />} />
         <Route path='/pageEvenementIntroductionAlaMeditationSoufie' element={<PageEvenementIntroductionAlaMeditationSoufie />} />
+        <Route path='/musiqueEtSpiritualiteMars' element={<MusiqueEtSpiritualiteMars />} />
         <Route path="/contact" element={<Contact />} /> 
         <Route path="*" element={<Error404 />} />
     </Routes>
