@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer6 from "../../../../img/Flyer6.webp";
+import Flyer8 from "../../../../img/Flyer8.webp";
 
 function DetailsEvenements2() {
   return (
@@ -90,7 +90,7 @@ function DetailsEvenements2() {
         Venez découvrir la méditation soufie, un espace pour se reconnecter à soi et à l'essentiel. Plongez dans la paix intérieure à travers des pratiques simples de contemplation et de silence.        </p>
 
         {/* Image */}
-        <img loading="lazy" src={Flyer6} alt="Flyer" className="object-contain rounded mb-6 w-full " />
+        <img loading="lazy" src={Flyer8} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
         {/* Deuxième paragraphe 
         <p className="text-justify leading-7 mb-6">
