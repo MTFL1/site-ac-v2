@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer7 from "./../../../../img/Flyer7.webp";
+import Flyer10 from "./../../../../img/29_03_25.webp";
 
 function DetailsEvenements() {
   return (
@@ -83,15 +83,15 @@ function DetailsEvenements() {
 
       <div className="relative flex flex-col w-full mx-auto text-gray-900 py-10 px-5 md:w-[60%]">
         {/* Titre */}
-        <h1 className="text-4xl font-bold mb-6">Qui est Marc Loopuyt ?</h1>
+        <h1 className="text-4xl font-bold mb-6">Sami W.</h1>
 
         {/* Premier paragraphe*/}
         <p className="text-justify leading-7 mb-6">
-        Marc Loopuyt a fait de sa vie une quête musicale en résidant longuement auprès de ses maîtres: Andalousie, Maroc, Turquie et Azerbaydjan. Il reçoit aussi d'eux tout un corpus de commentaires sapientiels sur les arcanes de la Musique. A Fès, sa fréquentation du grand islamologue Titus Burckhardt va l'inciter à systématiser ce recueil dans la perspective de l'unité transcendante des traditions esthétiques. Outre ses divers CD, il publie:" Un Luth mythique de Damas" ( Cité de la Musique) et:" le Voyage, la Musique et le Fil d'Ariane "( les Trois Colonnes, à paraître). Il propose ici une causerie fondée sur ces rencontres remarquables et sur des anecdotes précises et vivantes qui illustrent les principes et les méthodes d' intériorisation de l'art traditionnel. Cet exposé qui concerne la musique mais aussi l'art en généra, inclura de petits intermèdes joués sur le luth oriental.
+        " Soulages, la lumière au-delà des ténèbres "
         </p>
         
         {/* Image */}
-        <img loading="lazy" src={Flyer7} alt="Flyer" className="object-contain rounded mb-6 w-full " />
+        <img loading="lazy" src={Flyer10} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
         {/* Deuxième paragraphe 
         <p className="text-justify leading-7 mb-6">
