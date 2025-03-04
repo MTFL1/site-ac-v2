@@ -4,7 +4,7 @@ const FormWidget2 = () => {
   return (
       <iframe
       title="Google Form"
-      src="https://docs.google.com/forms/d/e/1FAIpQLSf8-js1RpW1H6hYxL9KXFAWZIKRaSToI3ixlh8ThaoNozlptQ/viewform?embedded=true" 
+      src="https://docs.google.com/forms/d/e/1FAIpQLSf6wDZLd_xHhgdwdVohLjnzIBa3XVfJsavQRfx7BQw_wUQXZQ/viewform?embedded=true" 
       scrolling="none"
       style={{
         width: "100%",
