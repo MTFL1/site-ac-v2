@@ -8,6 +8,8 @@ import Contact from './pages/Contact/Contact';
 import Error404 from './pages/Error404/Error404';
 import Evenements from './pages/Event/Event';
 import ArtEtSpiritualiteMars from './pages/PageEvenement/ArtEtSpiritualiteMars/ui/ArtEtSpiritualiteMars';
+import RencontreSpirituelleFeminine from './pages/PageEvenement/RencontreSpirituelleFeminine/RencontreSpirituelleFeminine';
+
 //import Evenements from './pages/Evenements/Evenements';
 //import MawlidAnNabi from './pages/Mawlid/Mawlid-An-Nabi';
 
@@ -31,6 +33,7 @@ function App() {
         <Route path="/pageEvenementAlaUne" element={<PageEvenementAlaUne />} />
         <Route path='/pageEvenementIntroductionAlaMeditationSoufie' element={<PageEvenementIntroductionAlaMeditationSoufie />} />
         <Route path='/artEtSpiritualiteMars' element={<ArtEtSpiritualiteMars />} />
+        <Route path="//rencontreSpirituelleFeminine" element={<RencontreSpirituelleFeminine />} />
         <Route path="/contact" element={<Contact />} /> 
         <Route path="*" element={<Error404 />} />
     </Routes>

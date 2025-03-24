@@ -8,7 +8,7 @@ import Flyer7 from "../../img/Flyer7.webp"
 import Flyer8 from "../../img/Flyer8.webp"
 import Flyer9 from "../../img/22_03_25.webp"
 import Flyer10 from "../../img/29_03_25.webp"
-
+import Flyer11 from "../../img/Flyer11.webp"
 
 
 const eventsData = [
@@ -81,6 +81,13 @@ const eventsData = [
         img: Flyer10,
         date: "2025-03-29",
         href: "/ArtEtSpiritualiteMars",
+      },
+      {
+        id: 11,
+        title: "Événement 11",
+        img: Flyer11,
+        date: "2025-04-13",
+        href: "/RencontreSpirituelleFeminine",
       },
   ];
   
