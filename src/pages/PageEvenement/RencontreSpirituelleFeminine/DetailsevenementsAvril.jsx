@@ -83,14 +83,29 @@ function DetailsEvenementsAvril() {
       </div>
 
       <div className="relative flex flex-col w-full mx-auto text-gray-900 py-10 px-5 md:w-[60%]">
-        {/* Titre 
-        <h1 className="text-4xl font-bold mb-6">Sami W.</h1>
-*/}
-        {/* Premier paragraphe
+        {/* Titre */}
+        <h1 className="text-4xl font-bold mb-6">Rencontre spirituelle féminine</h1>
+
+        {/* Premier paragraphe*/}
         <p className="text-justify leading-7 mb-6">
-        " Soulages, la lumière au-delà des ténèbres "
+        ✨ Comment entretenir la beauté et la douceur du cœur ? ✨<br />
+        <br />
+L’association L’Antre-Connaissance vous invite à une rencontre spirituelle exclusivement feminine, un moment d’introspection et d'échange dédié aux femmes en quête d’harmonie intérieure. <br />
+<br />
+📅 Date : Dimanche 13 avril <br />
+🕓 Heure : 14h - Accueil à 13h30<br />
+📍 Lieu : Salle All Events, 41 boulevard de Thibaud, 31100 Toulouse<br />
+Possibilité de stationnement ou accessible par les bus ligne 49, 58 et 85<br />
+🎟 Inscription obligatoire, 1 billet par personne<br />
+<br />
+Au programme :<br />
+• Conférence inspirante • Méditation • Quizz interactif avec cadeaux • Ateliers enfants • Restauration • Stand de vente •<br />
+<br />
+Venez partager un moment unique de spiritualité et de bienveillance ! Pensez à venir accompagnée de vos proches 🌷 <br />
+<br />
+📞 Contact : 07 62 03 41 20
         </p>
-        */}
+        
         {/* Image */}
         <img loading="lazy" src={Flyer11} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
