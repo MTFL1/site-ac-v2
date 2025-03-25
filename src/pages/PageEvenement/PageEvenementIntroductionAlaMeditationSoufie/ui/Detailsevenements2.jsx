@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer9 from "../../../../img/22_03_25.webp";
+import Flyer12 from "../../../../img/Flyer12.webp";
 
 function DetailsEvenements2() {
   return (
@@ -83,14 +83,13 @@ function DetailsEvenements2() {
 
       <div className="relative flex flex-col w-full mx-auto text-gray-900 py-10 px-5 md:w-[60%]">
         {/* Titre */}
-        <h1 className="text-4xl font-bold mb-6">Coeur physique et spirituel : connexion et méditation</h1>
+        <h1 className="text-4xl font-bold mb-6">Introduction à la méditation soufie</h1>
 
         {/* Premier paragraphe */}
         <p className="text-justify leading-7 mb-6">
-        Venez découvrir la méditation soufie, un espace pour se reconnecter à soi et à l'essentiel. Plongez dans la paix intérieure à travers des pratiques simples de contemplation et de silence.        </p>
-
+Intervenant : Selim H, enseignant dans une voie soufie. </p>      
         {/* Image */}
-        <img loading="lazy" src={Flyer9} alt="Flyer" className="object-contain rounded mb-6 w-full " />
+        <img loading="lazy" src={Flyer12} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
         {/* Deuxième paragraphe 
         <p className="text-justify leading-7 mb-6">

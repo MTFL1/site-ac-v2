@@ -8,8 +8,9 @@ function Event() {
   return (
     <main>
     <AlaUne/>
-    <DernierEvent/>
     <ProchainEvent/>
+    <DernierEvent/>
+    
     </main>
   );
 }

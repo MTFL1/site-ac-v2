@@ -9,7 +9,7 @@ import Flyer8 from "../../img/Flyer8.webp"
 import Flyer9 from "../../img/22_03_25.webp"
 import Flyer10 from "../../img/29_03_25.webp"
 import Flyer11 from "../../img/Flyer11.webp"
-
+import Flyer12 from "../../img/Flyer12.webp"
 
 const eventsData = [
     {
@@ -59,21 +59,21 @@ const eventsData = [
         title: "Événement 7",
         img: Flyer7,
         date: "2025-03-01",
-        href: "/MusiqueEtSpiritualiteMars",
+        href: "#",
       },
       {
         id: 7,
         title: "Événement 8",
         img: Flyer8,
         date: "2025-02-22",
-        href: "/pageEvenementIntroductionAlaMeditationSoufie",
+        href: "#",
       },
       {
         id: 8,
         title: "Événement 9",
         img: Flyer9,
         date: "2025-03-22",
-        href: "/pageEvenementIntroductionAlaMeditationSoufie",
+        href: "#",
       },
       {
         id: 10,
@@ -88,6 +88,13 @@ const eventsData = [
         img: Flyer11,
         date: "2025-04-13",
         href: "/RencontreSpirituelleFeminine",
+      },
+      {
+        id: 12,
+        title: "Événement 12",
+        img: Flyer12,
+        date: "2025-04-12",
+        href: "/pageEvenementIntroductionAlaMeditationSoufie",
       },
   ];
   

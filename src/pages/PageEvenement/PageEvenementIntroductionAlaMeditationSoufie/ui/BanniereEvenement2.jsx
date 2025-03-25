@@ -14,12 +14,12 @@ function BanniereEvenement2()  {
     {/* Premier élément horizontal */}
     <div className="flex items-center space-x-4">
       <i className="fa-solid fa-calendar text-2xl"></i> 
-      <p className="text-base leading-7">Espace Allegria, Toulouse </p>
+      <p className="text-base leading-7">Studio Peacock, Toulouse </p>
     </div>
     {/* Deuxième élément horizontal */}
     <div className="flex items-center space-x-4">
       <i className="fa-solid fa-location-dot text-2xl"></i> 
-      <p className="text-base leading-7"> 22 Mars 2025 de 17h30 à 19h30 </p>
+      <p className="text-base leading-7"> 12 Avril 2025 de 17h30 à 19h30 </p>
     </div>
   </div>
   {/* Bouton 
