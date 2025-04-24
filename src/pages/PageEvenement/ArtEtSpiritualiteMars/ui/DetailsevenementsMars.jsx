@@ -83,11 +83,11 @@ function DetailsEvenements() {
 
       <div className="relative flex flex-col w-full mx-auto text-gray-900 py-10 px-5 md:w-[60%]">
         {/* Titre */}
-        <h1 className="text-4xl font-bold mb-6">Sami W.</h1>
+        <h1 className="text-4xl font-bold mb-6">Quentin M.</h1>
 
         {/* Premier paragraphe*/}
         <p className="text-justify leading-7 mb-6">
-        " Soulages, la lumière au-delà des ténèbres "
+        De l’esprit de l’Art à l’art de l’Esprit
         </p>
         
         {/* Image */}

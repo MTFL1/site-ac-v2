@@ -10,6 +10,7 @@ import Flyer9 from "../../img/22_03_25.webp"
 import Flyer10 from "../../img/29_03_25.webp"
 import Flyer11 from "../../img/Flyer11.webp"
 import Flyer12 from "../../img/Flyer12.webp"
+import Flyer13 from "../../img/Flyer13.webp"
 
 const eventsData = [
     {
@@ -62,14 +63,14 @@ const eventsData = [
         href: "#",
       },
       {
-        id: 7,
+        id: 8,
         title: "Événement 8",
         img: Flyer8,
         date: "2025-02-22",
         href: "#",
       },
       {
-        id: 8,
+        id: 9,
         title: "Événement 9",
         img: Flyer9,
         date: "2025-03-22",
@@ -80,7 +81,7 @@ const eventsData = [
         title: "Événement 10",
         img: Flyer10,
         date: "2025-03-29",
-        href: "/ArtEtSpiritualiteMars",
+        href: "#",
       },
       {
         id: 11,
@@ -95,6 +96,13 @@ const eventsData = [
         img: Flyer12,
         date: "2025-04-12",
         href: "/pageEvenementIntroductionAlaMeditationSoufie",
+      },
+      {
+        id: 13,
+        title: "Événement 13",
+        img: Flyer13,
+        date: "2025-05-10",
+        href: "/ArtEtSpiritualiteMars",
       },
   ];
   
