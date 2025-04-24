@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer10 from "./../../../../img/29_03_25.webp";
+import Flyer13 from "./../../../../img/Flyer13.webp";
 
 function DetailsEvenements() {
   return (
@@ -91,7 +91,7 @@ function DetailsEvenements() {
         </p>
         
         {/* Image */}
-        <img loading="lazy" src={Flyer10} alt="Flyer" className="object-contain rounded mb-6 w-full " />
+        <img loading="lazy" src={Flyer13} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
         {/* Deuxième paragraphe 
         <p className="text-justify leading-7 mb-6">
