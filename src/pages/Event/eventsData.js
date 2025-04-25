@@ -102,7 +102,7 @@ const eventsData = [
         title: "Événement 13",
         img: Flyer13,
         date: "2025-05-10",
-        href: "/ArtEtSpiritualiteMars",
+        href: "/ArtEtSpiritualite",
       },
   ];
   
