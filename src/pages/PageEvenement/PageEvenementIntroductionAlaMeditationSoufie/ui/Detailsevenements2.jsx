@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer12 from "../../../../img/Flyer12.webp";
+import Flyer14 from "../../../../img/Flyer14.webp";
 
 function DetailsEvenements2() {
   return (
@@ -87,9 +87,9 @@ function DetailsEvenements2() {
 
         {/* Premier paragraphe */}
         <p className="text-justify leading-7 mb-6">
-Intervenant : Selim H, enseignant dans une voie soufie. </p>      
+Intervenant : Sidi Selim, enseignant dans une voie soufie. </p>      
         {/* Image */}
-        <img loading="lazy" src={Flyer12} alt="Flyer" className="object-contain rounded mb-6 w-full " />
+        <img loading="lazy" src={Flyer14} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
         {/* Deuxième paragraphe 
         <p className="text-justify leading-7 mb-6">
