@@ -87,6 +87,7 @@ function DetailsEvenements() {
 
         {/* Premier paragraphe*/}
         <p className="text-justify leading-7 mb-6">
+          🧠 Cycle philosophique – Les besoins de l’âme <br/>
         ✨ 1ère rencontre : L’amour, la boisson de l’âme <br/>
 
 En s’inspirant de Simone Weil, mais aussi de Platon et Maeterlinck, nous réfléchirons ensemble à une question essentielle :
