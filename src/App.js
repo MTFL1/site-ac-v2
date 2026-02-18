@@ -10,7 +10,7 @@ import Evenements from './pages/Event/Event';
 import ArtEtSpiritualite from './pages/PageEvenement/ArtEtSpiritualiteMars/ui/ArtEtSpiritualiteMars';
 import RencontreSpirituelleFeminine from './pages/PageEvenement/RencontreSpirituelleFeminine/RencontreSpirituelleFeminine';
 import CyclePhilosophique from './pages/PageEvenement/CyclePhilosophique/ui/CyclePhilosophique';
-
+import ConferencePhilosophique from './pages/PageEvenement/ConférencePhilosophique/ui/ConferencePhilosophique';
 
 //import Evenements from './pages/Evenements/Evenements';
 //import MawlidAnNabi from './pages/Mawlid/Mawlid-An-Nabi';
@@ -37,6 +37,7 @@ function App() {
         <Route path='/artEtSpiritualite' element={<ArtEtSpiritualite />} />
         <Route path="//rencontreSpirituelleFeminine" element={<RencontreSpirituelleFeminine />} />
         <Route path="/cyclePhilosophique" element={<CyclePhilosophique />} />
+        <Route path="/conferencePhilosophique" element={<ConferencePhilosophique />} />
         <Route path="/contact" element={<Contact />} /> 
         <Route path="*" element={<Error404 />} />
     </Routes>
