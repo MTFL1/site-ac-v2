@@ -13,7 +13,7 @@ import Flyer12 from "../../img/Flyer12.webp"
 import Flyer13 from "../../img/Flyer13.webp"
 import Flyer14 from "../../img/Flyer14.webp"
 import Flyer15 from "../../img/Flyer15.webp"
-import Flyer17 from "../../img/Flyer17.webp"
+import Flyer16 from "../../img/Flyer16.webp"
 
 const eventsData = [
     {
@@ -124,14 +124,7 @@ const eventsData = [
       {
         id: 16,
         title: "Événement 16",
-        img: Flyer15,
-        date: "2026-05-31",
-        href: "/CyclePhilosophique",
-      },
-      {
-        id: 17,
-        title: "Événement 17",
-        img: Flyer17,
+        img: Flyer16,
         date: "2026-02-28",
         href: "/ConferencePhilosophique",
       },

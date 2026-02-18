@@ -1,5 +1,5 @@
 import React from "react";
-import Flyer17 from "./../../../../img/Flyer17.webp";
+import Flyer16 from "./../../../../img/Flyer16.webp";
 
 function DetailsEvenements() {
   return (
@@ -94,7 +94,7 @@ Existe-t-il une unité dans l’expérience du divin à travers les traditions s
         </p>
         
         {/* Image */}
-        <img loading="lazy" src={Flyer17} alt="Flyer" className="object-contain rounded mb-6 w-full " />
+        <img loading="lazy" src={Flyer16} alt="Flyer" className="object-contain rounded mb-6 w-full " />
 
         {/* Deuxième paragraphe 
         <p className="text-justify leading-7 mb-6">
