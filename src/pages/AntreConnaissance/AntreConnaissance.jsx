@@ -11,8 +11,8 @@ import NosDernieresVideo from "./ui/NosDernieresVideo"
 function AntreConnaissance() {
   return (
       <main>
-        <Sagesse/>
         <NosDernieresVideo/>
+        <Sagesse/>
         <BandeauDon/>
       </main>
   );
